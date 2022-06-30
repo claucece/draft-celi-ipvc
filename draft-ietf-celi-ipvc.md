@@ -1,7 +1,7 @@
 ---
 title: "Intimate Partner Violence Digital Considerations"
-abbrev: "ipvdc"
-docname: draft-ipvdc-latest
+abbrev: "ipvc"
+docname: draft-ietf-celi-ipvc-latest
 category: info
 
 ipr: trust200902
