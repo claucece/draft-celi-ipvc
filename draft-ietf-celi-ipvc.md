@@ -34,14 +34,67 @@ TODO Abstract
 
 # Introduction
 
-TODO Introduction
+There are many ways in which technology is used to enhance Intimate Partner Violence (IPV):
 
+* UI-bound attacks
+* Ready-made apps available for stalking
+* Dual-use applications: anti-theft, parental tracking,
 
-# Conventions and Definitions
+# Kind of attacks
 
-{::boilerplate bcp14-tagged}
+* Digital tracking and stalking
+* Compromise of account:
+  * Deleting data
+  * Access to contacts and data
+  * Lock out
+  * Impersonation
+* Compromise of devices
+  * Access to contacts and data
+  * Impersonation
+* Denial of access to device or networks, or destruction
+* Exposing of private information or media
+* Denial of access to contacts:
+  * Device is the main mean of contact to family and friends
 
+## Means of attacking
 
+* Installation of spyware or spoofing:
+  * Remote access
+* Coercion and control:
+  * Physically prevent access to devices and/or networks
+  * Physical destruction of the device
+  * Forcing to reveal password or account login mechanisms
+  * Hacking into accounts
+* Family and/or shared network plans
+* Monitoring:
+  * Abuse of social media
+  * Usage of dual-use applications: track my phone
+* Exposure:
+  * Posting harmful content to humiliate
+  * Harass family or friends
+  * Doxxing
+  * Revenge porn or intimate media
+
+# Specific abused technology
+
+* Passwords
+* PINs
+* Other authentication methods: fingerprints, devices
+* Media and private information
+* Recovery of account mechanisms
+* Lack of blocking mechanisms and abuse of anonymous mechanisms:
+  * Contact through fake numbers
+  * Contact through fake accounts
+  * Open messages system of social media: anyone can send a DM, etc.
+  * Abuse of read-recipes: 'I know you read the message'
+  * Lack of proper UI for blocking
+  * “Facebook is really a stalker’s paradise.”
+
+Adversary is 'adversarially authenticated'.
+
+# Recommendations
+
+* Proper authentication systems
 # Security Considerations
 
 TODO Security
