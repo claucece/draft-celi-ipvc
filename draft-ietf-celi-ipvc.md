@@ -23,6 +23,12 @@ author:
 normative:
 
 informative:
+  NCAV:
+    target: https://ncadv.org/learn-more/statistics
+    title: "National Statistics Domestic Violence"
+    author:
+      - name: National Coalition Against Domestic Violence Abuse
+    date: 2022-09-06
 
 
 --- abstract
@@ -39,6 +45,15 @@ There are many ways in which technology is used to enhance Intimate Partner Viol
 * UI-bound attacks
 * Ready-made apps available for stalking
 * Dual-use applications: anti-theft, parental tracking,
+
+# Definition of technology-based Intimate Partner Violence (IPV)
+
+Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
+people per minute are physically abused by an intimate partner in the United States {{NCAV}}.
+As digital technologies play a central role in everyday lives, it is used to enhance
+and participate in IPV.
+
+* Definition, mention that is not only about partners but also the case of geriatrics surveillance, for example.
 
 # Kind of attacks
 
@@ -65,7 +80,7 @@ There are many ways in which technology is used to enhance Intimate Partner Viol
   * Physical destruction of the device
   * Forcing to reveal password or account login mechanisms
   * Hacking into accounts
-* Family and/or shared network plans
+* Shared network plans between family/relationship members
 * Monitoring:
   * Abuse of social media
   * Usage of dual-use applications: track my phone
