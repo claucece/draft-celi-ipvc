@@ -40,6 +40,14 @@ TODO Abstract
 
 # Introduction
 
+Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
+people per minute are physically abused by an intimate partner in the United States {{NCAV}}.
+As digital technologies play a central role in everyday lives, it is used to enhance
+and participate in IPV. Nevertheless, digitally enhanced IPV is rarely a consideration
+when designing technology, protocols and networks. Inside attackers are rarely
+discussed as well: attackers that have complete access to devices, networks
+and can coerce users.
+
 There are many ways in which technology is used to enhance Intimate Partner Violence (IPV):
 
 * UI-bound attacks
@@ -48,12 +56,9 @@ There are many ways in which technology is used to enhance Intimate Partner Viol
 
 # Definition of technology-based Intimate Partner Violence (IPV)
 
-Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
-people per minute are physically abused by an intimate partner in the United States {{NCAV}}.
-As digital technologies play a central role in everyday lives, it is used to enhance
-and participate in IPV.
-
 * Definition, mention that is not only about partners but also the case of geriatrics surveillance, for example.
+
+# Definition of attacker
 
 # Kind of attacks
 
