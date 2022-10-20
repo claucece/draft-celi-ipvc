@@ -110,6 +110,12 @@ list their main groups:
 
 # Definition of attacker
 
+The attacker we present in this document is one that has forceful control of
+accounts, devices, and/or authentication information for accessing systems.
+The kind of attacker can be technologically savvy or not. We define this
+attacker as one of the strongest ones as it can have unlimited access to
+systems and devices.
+
 # Kind of attacks
 
 * Digital tracking and stalking
