@@ -29,6 +29,18 @@ informative:
     author:
       - name: National Coalition Against Domestic Violence Abuse
     date: 2022-09-06
+  Dragiewicz2018:
+    target: https://www.tandfonline.com/doi/abs/10.1080/14680777.2018.1447341
+    title: "Technology facilitated coercive control: domestic violence and the competing roles of digital media platforms"
+    author:
+      - name: Molly Dragiewicz
+      - name: Jean Burgess
+      - name: Ariadna Matamoros-Fernández
+      - name: Michael Salter
+      - name: Nicolas P. Suzor
+      - name: Delanie Woodlock
+      - name: Bridget Harris
+    date: 2022-09-06
 
 
 --- abstract
@@ -37,9 +49,9 @@ This document aims to describe how internet standards, protocols and
 its implementations may not take into account an specific kind of attacker:
 one that has complete access to devices or accounts. This kind of attacker
 is a reality for many people in the real-world. Intimate partner violence (IPV) is
-a pervasive problem that can increase with the usage of technology. On this
-document, we aim to describe the types of strategies this attacker uses and
-what kind of counter-measures we can design.
+a pervasive problem that can increase with the usage of technology, that exhibits the
+kind of attacker just described. On this document, we aim to describe the types
+of strategies this attacker uses and what kind of counter-measures we can design.
 
 --- middle
 
@@ -51,17 +63,36 @@ As digital technologies play a central role in everyday lives, it is used to enh
 and participate in IPV. Nevertheless, digitally enhanced IPV is rarely a consideration
 when designing technology, protocols and networks. Inside attackers are rarely
 discussed as well: attackers that have complete access to devices, networks
-and can coerce users.
+and/or can coerce users.
 
-There are many ways in which technology is used to enhance Intimate Partner Violence (IPV):
+This document aims to describe the types of strategies attackers of IPV use. It
+also aims to provide recommendations that protocols, standards and implementations
+can use in order to prevent it.
+
+In what follows, we first describe what is IPV, the kind of strategies attackers
+use, and we end with the recommendations.
+
+# Definition of technology-based Intimate Partner Violence (IPV)
+
+IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person
+by a current or former intimate partner. By partner here we mean anyone with a
+close relationship with the victim, which relationship can be romantic, sexual,
+of care, family, and more. Technology plays a role in IPV by the means of pervasive
+surveillance and coercive access. Dragiewicz et al. {{Dragiewicz2018}} calls this
+"digital coercive control". In this case, technology becomes a mechanism by which
+attackers enhance abuse often by controlling devices and/or accounts to increase
+surveillance and harassment. IPV however should not be only defined as a
+phenomenon of romantic/sexual relationships. It can also be present on family
+relationships, geriatric surveillance and more.
+
+There are many ways in which technology is used to enhance IPV. Here we informally
+list their main groups:
 
 * UI-bound attacks
 * Ready-made apps available for stalking
 * Dual-use applications: anti-theft, parental tracking,
-
-# Definition of technology-based Intimate Partner Violence (IPV)
-
-* Definition, mention that is not only about partners but also the case of geriatrics surveillance, for example.
+* Social media abuse
+* Perception of threat
 
 # Definition of attacker
 
@@ -120,6 +151,7 @@ Adversary is 'adversarially authenticated'.
 # Recommendations
 
 * Proper authentication systems
+
 # Security Considerations
 
 TODO Security
