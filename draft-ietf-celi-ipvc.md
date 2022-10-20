@@ -33,8 +33,13 @@ informative:
 
 --- abstract
 
-TODO Abstract
-
+This document aims to describe how internet standards, protocols and
+its implementations may not take into account an specific kind of attacker:
+one that has complete access to devices or accounts. This kind of attacker
+is a reality for many people in the real-world. Intimate partner violence (IPV) is
+a pervasive problem that can increase with the usage of technology. On this
+document, we aim to describe the types of strategies this attacker uses and
+what kind of counter-measures we can design.
 
 --- middle
 
