@@ -92,7 +92,8 @@ list their main groups:
   UI. In this case, attackers become authenticated but adversarial users of a
   system. They cannot, however, escalate to root privileges or access other
   functionalities of the system. They are bounded to whatever system they managed
-  to authenticate to. We will explore later the ways attackers use to authenticate.
+  to authenticate to. We will explore later the ways attackers use forcibly gain
+  authentication to a system.
 * Ready-made applications/devices: Attackers can use tools
   that are solely built to enhance IPV. The biggest example of this tool is spyware.
 * Dual-use applications/devices: Attackers can use tools built for beneficial or innocuous
@@ -104,7 +105,8 @@ list their main groups:
   perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
 * Perception of threat: the mere perception of using technology to enhance IPV
   can be used by attackers to control victims and enhance abuse. This can lead
-  to lack of trust in technology and isolation from support.
+  to lack of trust in technology and isolation from support from the victims
+  side.
 
 # Definition of attacker
 
