@@ -108,13 +108,17 @@ list their main groups:
   to lack of trust in technology and isolation from support from the victims
   side.
 
-# Definition of attacker
+# Definition of the Attacker
 
 The attacker we present in this document is one that has forceful control of
 accounts, devices, and/or authentication information for accessing systems.
 The kind of attacker can be technologically savvy or not. We define this
 attacker as one of the strongest ones as it can have unlimited access to
 systems and devices.
+
+The attacker has some kind of physical access to the victim (or has had it in the past),
+and often shares a common social network with them. In some cases, it can be
+the legal owner of the devices/accounts a victim uses.
 
 # Kind of attacks
 
