@@ -88,11 +88,23 @@ relationships, geriatric surveillance and more.
 There are many ways in which technology is used to enhance IPV. Here we informally
 list their main groups:
 
-* UI-bound attacks
-* Ready-made apps available for stalking
-* Dual-use applications: anti-theft, parental tracking,
-* Social media abuse
-* Perception of threat
+* UI-bound attacks: Attackers can abuse technology to enhance IPV by abusing the
+  UI. In this case, attackers become authenticated but adversarial users of a
+  system. They cannot, however, escalate to root privileges or access other
+  functionalities of the system. They are bounded to whatever system they managed
+  to authenticate to. We will explore later the ways attackers use to authenticate.
+* Ready-made applications/devices: Attackers can use tools
+  that are solely built to enhance IPV. The biggest example of this tool is spyware.
+* Dual-use applications/devices: Attackers can use tools built for beneficial or innocuous
+  purposes and repurpose them for harm. This is the case, for example, of anti-theft
+  devices that can be repurposed for tracking.
+* Social media and forums: Attackers can learn and share information on how to use
+  technology to enhance IPV through the usage of this applications. They can also
+  receive narrative justification to condone their behaviour. They can also
+  perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
+* Perception of threat: the mere perception of using technology to enhance IPV
+  can be used by attackers to control victims and enhance abuse. This can lead
+  to lack of trust in technology and isolation from support.
 
 # Definition of attacker
 
