@@ -41,64 +41,59 @@ informative:
       - name: Delanie Woodlock
       - name: Bridget Harris
     date: 2022-09-06
-
+  WHO:
+    target: https://apps.who.int/iris/bitstream/handle/10665/77432/WHO_RHR_12.36_eng.pdf
+    title: "Understanding and Addressing Violence Against Women: Intimate Partner Violence"
+    author:
+      - name: World Health Organization
+    date: 2012
 
 --- abstract
 
-This document aims to describe how internet standards, protocols and
-its implementations may not take into account an specific kind of attacker:
-one that has complete access to devices or accounts. This kind of attacker
-is a reality for many people in the real-world. Intimate partner violence (IPV) is
-a pervasive problem that can increase with the usage of technology, that exhibits the
-kind of attacker just described. On this document, we aim to describe the types
-of strategies this attacker uses and what kind of counter-measures we can design.
+This document aims to describe how internet protocols and
+their implementations might better mitigate technical attacks at the user endpoint. Intimate partner violence (IPV) is a
+a pervasive reality for people that can be exacerbated with the usage of technology because the attacker has access to one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. This kind of technical compromise is distinct from active or passive on-path attacks. In this document we describe the tactics this attacker uses and what kind of counter-measures can be designed in IETF protocols.
 
 --- middle
 
 # Introduction
 
 Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
-people per minute are physically abused by an intimate partner in the United States {{NCAV}}.
-As digital technologies play a central role in everyday lives, it is used to enhance
-and participate in IPV. Nevertheless, digitally enhanced IPV is rarely a consideration
-when designing technology, protocols and networks. Inside attackers are rarely
-discussed as well: attackers that have complete access to devices, networks
-and/or can coerce users.
+people per minute are physically abused by an intimate partner in the United States {{NCAV}}. It occurs in all settings and among all socioeconomic, religious and cultural groups {{WHO}}.
+Digital technologies are central in modern lives and can be used against victims of IPV. At the same time IPV is rarely considered
+when designing digital technologies, networks, nor internet protocols. "The attacker you know" is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their victims.
 
-This document aims to describe the types of strategies attackers of IPV use. It
-also aims to provide recommendations that protocols, standards and implementations
-can use in order to prevent it.
+This document describes the tactics used in IPV. It
+provides recommendations for the design of protocols and implementations
+to mitigate those tactics.
 
-In what follows, we first describe what is IPV, the kind of strategies attackers
+In what follows, we first describe IPV, the kind of tactics attackers
 use, and we end with the recommendations.
 
 # Definition of technology-based Intimate Partner Violence (IPV)
 
 IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person
 by a current or former intimate partner. By partner here we mean anyone with a
-close relationship with the victim, which relationship can be romantic, sexual,
-of care, family, and more. Technology plays a role in IPV by the means of pervasive
-surveillance and coercive access. Dragiewicz et al. {{Dragiewicz2018}} calls this
-"digital coercive control". In this case, technology becomes a mechanism by which
-attackers enhance abuse often by controlling devices and/or accounts to increase
-surveillance and harassment. IPV however should not be only defined as a
-phenomenon of romantic/sexual relationships. It can also be present on family
-relationships, geriatric surveillance and more.
+close relationship with the victim and can encompass abuse by a romantic or sexual partner, as well as child or elder abuse, or abuse by any member of a household. Technology plays a role in IPV by the means of pervasive
+surveillance and coercive access. {{Dragiewicz2018}} calls this
+"digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
+surveillance or subject the victim to harassment.
 
-There are many ways in which technology is used to enhance IPV. Here we informally
+There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally
 list their main groups:
 
-* UI-bound attacks: Attackers can abuse technology to enhance IPV by abusing the
+* Ready-made tools: Attackers can use applications or devices
+  that are solely built to facilitate IPV. These apps are sometimes called "stalkerware" or "spouseware".
+* Dual-use tools: Attackers can use applications, control settings or devices built for beneficial or innocuous
+  purposes and repurpose them for harm. This is the case, for example, of anti-theft
+  devices that can be repurposed for tracking.
+* Impersonation attacks: Knowing personal information coupled with acccess to devices gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them, sometimes to the degree that the victim can no longer successfully authenticate themselves.
+* UI-bound impersonation attacks: Attackers can abuse technology to enhance IPV by abusing the
   UI. In this case, attackers become authenticated but adversarial users of a
   system. They cannot, however, escalate to root privileges or access other
   functionalities of the system. They are bounded to whatever system they managed
   to authenticate to. We will explore later the ways attackers use forcibly gain
   authentication to a system.
-* Ready-made applications/devices: Attackers can use tools
-  that are solely built to enhance IPV. The biggest example of this tool is spyware.
-* Dual-use applications/devices: Attackers can use tools built for beneficial or innocuous
-  purposes and repurpose them for harm. This is the case, for example, of anti-theft
-  devices that can be repurposed for tracking.
 * Social media and forums: Attackers can learn and share information on how to use
   technology to enhance IPV through the usage of this applications. They can also
   receive narrative justification to condone their behaviour. They can also
