@@ -124,8 +124,9 @@ the legal owner of the devices/accounts a victim uses.
   * Impersonation
 * Compromise of devices
   * Access to contacts and data
+  * Access to accounts
   * Impersonation
-* Denial of access to device or networks, or destruction
+  * Denial of access to device or networks, or destruction
 * Exposing of private information or media
 * Denial of access to contacts:
   * Device is the main mean of contact to family and friends
@@ -163,8 +164,6 @@ the legal owner of the devices/accounts a victim uses.
   * Abuse of read-recipes: 'I know you read the message'
   * Lack of proper UI for blocking
   * “Facebook is really a stalker’s paradise.”
-
-Adversary is 'adversarially authenticated'.
 
 # Recommendations
 
