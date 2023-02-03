@@ -71,8 +71,9 @@ a pervasive reality for people that can be exacerbated with the usage of technol
 
 Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
 people per minute are physically abused by an intimate partner in the United States {{NCAV}}. It occurs in all settings and among all socioeconomic, religious and cultural groups {{WHO}}.
-Digital technologies are central in modern lives and can be used against victims of IPV. At the same time IPV is rarely considered
-when designing digital technologies, networks, nor internet protocols. "The attacker you know" is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their victims.
+
+Digital technologies are central in modern lives and can be used against victims and survivors of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor internet protocols.
+This lack of considerarion has put pressure on professionals and, in turn, survivors and victims, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their victims.
 
 This document describes the tactics used in IPV. It
 provides recommendations for the design of protocols and implementations
