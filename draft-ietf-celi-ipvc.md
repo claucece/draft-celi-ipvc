@@ -74,8 +74,7 @@ use, and we end with the recommendations.
 
 IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person
 by a current or former intimate partner. By partner here we mean anyone with a
-close relationship with the victim and can encompass abuse by a romantic or sexual partner, as well as child or elder abuse, or abuse by any member of a household. Technology plays a role in IPV by the means of pervasive
-surveillance and coercive access. {{Dragiewicz2018}} calls this
+close relationship with the victim and can encompass abuse by a romantic or sexual partner, as well as child or elder abuse, or abuse by any member of a household. It is understood in these cases there is an unequal power relationship that allows the attacker cause harm. Technology plays a role in IPV by the means of pervasive surveillance and coercive access. {{Dragiewicz2018}} calls this
 "digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
 surveillance or subject the victim to harassment.
 
@@ -148,7 +147,7 @@ the legal owner of the devices/accounts a victim uses.
   * Posting harmful content to humiliate
   * Harass family or friends
   * Doxxing
-  * Revenge porn or intimate media
+  * Non-consensual sharing of intimate images
 
 # Specific abused technology
 
