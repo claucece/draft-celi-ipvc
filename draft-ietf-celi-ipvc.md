@@ -180,6 +180,11 @@ the legal owner of the devices/accounts a victim uses.
 # Recommendations
 
 * Proper authentication systems
+* Proper blocking systems
+
+# Recommendations that do not work
+
+* Disconneting or ceasing the use of technology
 
 # Security Considerations
 
