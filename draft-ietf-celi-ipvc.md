@@ -84,8 +84,8 @@ use, and we end with the recommendations.
 # Definition of technology-based Intimate Partner Violence (IPV)
 
 IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person
-by a current or former intimate partner. By partner here we mean anyone with a
-close relationship with the victim and can encompass abuse by a romantic or sexual partner, as well as child or elder abuse, or abuse by any member of a household. It is understood in these cases there is an unequal power relationship that allows the attacker cause harm. Technology plays a role in IPV by the means of pervasive surveillance and coercive access. {{Dragiewicz2018}} calls this
+by a current or former intimate partner. By "partner" we mean anyone with a
+close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. It is understood in these cases that there is an unequal power relationship that allows the attacker to cause harm. Technology plays a role in IPV by the means of pervasive surveillance and coercive access. {{Dragiewicz2018}} calls this
 "digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
 surveillance or subject the victim to harassment.
 
@@ -105,7 +105,7 @@ list their main groups:
   to authenticate to. We will explore later the ways attackers use forcibly gain
   authentication to a system.
 * Social media and forums: Attackers can learn and share information on how to use
-  technology to enhance IPV through the usage of this applications. They can also
+  technology to enhance IPV through the usage of these applications. They can also
   receive narrative justification to condone their behaviour. They can also
   perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
 * Perception of threat: the mere perception of using technology to enhance IPV
