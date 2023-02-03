@@ -19,6 +19,17 @@ author:
     name: Sofia Celi
     organization: Brave
     email: cherenkov@riseup.net
+ -
+    ins: J. Guerra
+    name: Juliana Guerra
+    organization: Derechos Digitales
+    email: juliana@derechosdigitales.org
+ -
+    ins: M. Knodel
+    name: Mallory Knodel
+    organization: CDT
+    email: mknodel@cdt.org
+
 
 normative:
 
