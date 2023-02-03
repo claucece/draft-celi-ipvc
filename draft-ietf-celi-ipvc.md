@@ -72,8 +72,8 @@ a pervasive reality for people that can be exacerbated with the usage of technol
 Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
 people per minute are physically abused by an intimate partner in the United States {{NCAV}}. It occurs in all settings and among all socioeconomic, religious and cultural groups {{WHO}}.
 
-Digital technologies are central in modern lives and can be used against victims and survivors of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor internet protocols.
-This lack of considerarion has put pressure on professionals and, in turn, survivors and victims, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their victims.
+Digital technologies are central in modern lives and can be used against targets and survivors of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor internet protocols.
+This lack of considerarion has put pressure on professionals and, in turn, survivors and targets, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their victims.
 
 This document describes the tactics used in IPV. It
 provides recommendations for the design of protocols and implementations
@@ -88,7 +88,7 @@ IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person
 by a current or former intimate partner. By "partner" we mean anyone with a
 close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. It is understood in these cases that there is an unequal power relationship that allows the attacker to cause harm. Technology plays a role in IPV by the means of pervasive surveillance and coercive access. {{Dragiewicz2018}} calls this
 "digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
-surveillance or subject the victim to harassment.
+surveillance or subject the target to harassment.
 
 There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally
 list their main groups:
