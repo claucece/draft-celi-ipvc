@@ -181,10 +181,12 @@ the legal owner of the devices/accounts a victim uses.
 
 * Proper authentication systems
 * Proper blocking systems
+* Considering local attackers when designing sensitive apps 
+* Plausible deniability for sensitive apps
 
 # Recommendations that do not work
 
-* Disconneting or ceasing the use of technology
+* Disconnecting or ceasing the use of technology
 
 # Security Considerations
 
