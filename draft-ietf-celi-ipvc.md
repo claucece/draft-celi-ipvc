@@ -128,20 +128,45 @@ the legal owner of the devices/accounts a victim uses.
 
 # Kind of attacks
 
-* Digital tracking and stalking
+* Monitoring: One of the most prevelant methods to enhance IPV is the usage of
+  active monitoring of any online account that the victim has or of any action that the
+  victim does in the digital world. This includes a variety of behaviors that
+  feel unwelcomed and intrusive, and can involve threats.
+  The monitoring is "active" in that is a permanent action that the victim can be
+  aware of or not, and that the abuser might want to make them aware or not. It can
+  include:
+  * Monitoring e-mail, chat-based or social media communication, or browsing history
+    either directly on the victim’s computer or through specialised applications.
+  * Monitoring location and wherabouts by looking at the metadata of communication,
+    by using location-help applications, or by using specialized applications.
+    either directly on the victim’s computer or through specialised applications.
+  * Using the Internet to seek public or private information to compile a
+    victim's personal information for use in harassment
+
+  On this type of attack, we see two dimensions:
+  * Monitoring of the content of communications.
+  * Monitoring of location information.
+
 * Compromise of account:
   * Deleting data
   * Access to contacts and data
   * Lock out
-  * Impersonation
+  * Impersonation: Using the victim's online identity to send false messages to
+    others or to purchase goods and services.
+
 * Compromise of devices
   * Access to contacts and data
   * Access to accounts
   * Impersonation
   * Denial of access to device or networks, or destruction
 * Exposing of private information or media
-* Denial of access to contacts:
+* Denial of access:
   * Device is the main mean of contact to family and friends
+  * Disrupting digital communications by flooding a victim's communication's tool
+    with unwanted messages or by sending a virus program.
+* Threats
+  * Sending e-mail, chat-based messages or social media messages that threatens,
+    insults, or harasses.
 
 ## Means of attacking
 
@@ -181,7 +206,7 @@ the legal owner of the devices/accounts a victim uses.
 
 * Proper authentication systems
 * Proper blocking systems
-* Considering local attackers when designing sensitive apps 
+* Considering local attackers when designing sensitive apps
 * Plausible deniability for sensitive apps
 
 # Recommendations that do not work
