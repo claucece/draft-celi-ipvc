@@ -152,7 +152,13 @@ the legal owner of the devices/accounts a victim uses.
   * Monitoring of the UI content of digital tools.
   * Monitoring of location information.
 
-* Compromise of account:
+* Compromise of accounts: Research suggests that IPV, a perpetrator may demand
+  access to a victim-survivor's devices and accounts for continuous monitoring
+  and/or restricting their communication with others. This is different from the
+  previous point in that the perpetrator demands access (or uses invasive tools) to tools and contents, rather
+  than using "publicly available" tools. This type of attack is mounted in order
+  to reduce the "life space" or "space for action" that the victim-survivor may
+  have to perform activities that do not involve their abuser.
   * Deleting data
   * Access to contacts and data
   * Lock out
@@ -231,6 +237,8 @@ the legal owner of the devices/accounts a victim uses.
 # Recommendations that do not work
 
 * Disconnecting or ceasing the use of technology
+
+# Effects on society
 
 # Security Considerations
 
