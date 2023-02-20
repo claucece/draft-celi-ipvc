@@ -139,12 +139,17 @@ the legal owner of the devices/accounts a victim uses.
     either directly on the victim’s computer or through specialised applications.
   * Monitoring location and wherabouts by looking at the metadata of communication,
     by using location-help applications, or by using specialized applications.
-    either directly on the victim’s computer or through specialised applications.
+  * Monitoring any data sent over the network by mounting DNS attacks or other specialised
+    attacks.
+  * Monitoring any information found over the UI by looking at laptops, or other
+    devices while the victim is using them.
   * Using the Internet to seek public or private information to compile a
     victim's personal information for use in harassment
 
-  On this type of attack, we see two dimensions:
-  * Monitoring of the content of communications.
+  On this type of attack, we see these dimensions:
+  * Monitoring of the content of communications either at the application layer
+    or other layers.
+  * Monitoring of the UI content of digital tools.
   * Monitoring of location information.
 
 * Compromise of account:
@@ -167,6 +172,20 @@ the legal owner of the devices/accounts a victim uses.
 * Threats
   * Sending e-mail, chat-based messages or social media messages that threatens,
     insults, or harasses.
+* Harrassing: This type of attacks seems to appear in different dimensions:
+  * On-going harrassment with the goal of intimidation, humiliation and monitoring.
+  * Harrassment that appears after a victim has "disconnected" to continue coercion:
+    "[Disconnecting] often makes it worse. Clients are much more at risk when they actually separate
+    from their abusers because he suddenly no longer has any control over that victim.
+    So often the only thing left is through the phone, so he’s going to start
+    harassing you, calling, texting. If you change your number, now he’s most
+    likely going to go crazy. So that’s when he’s going to start stalking you
+    any way he can."
+   Harrassment can be anonymous, but a victim often knows from whom harrassment
+   messages/actions come from but, due to its anonymity, it is unable to hold
+   abusers accountable. The systems we have in place often need that harrassment
+   content is permanently available so that an investigation takes place. This
+   enhances the abuse a victim is suffering.
 
 ## Means of attacking
 
