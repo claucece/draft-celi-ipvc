@@ -158,11 +158,13 @@ the legal owner of the devices/accounts a victim uses.
   previous point in that the perpetrator demands access (or uses invasive tools) to tools and contents, rather
   than using "publicly available" tools. This type of attack is mounted in order
   to reduce the "life space" or "space for action" that the victim-survivor may
-  have to perform activities that do not involve their abuser.
-  * Deleting data
-  * Access to contacts and data
-  * Lock out
-  * Impersonation: Using the victim's online identity to send false messages to
+  have to perform activities that do not involve their abuser. Once an attacker
+  has access to an online account, they can use that to:
+  * Delete data, which can be communication, documents and more.
+  * Have access to friends, family and contacts.
+  * Have access to communication, audio-video content, and any associated metadata.
+  * Lock out ot change the authentication mechanisms that grant access to the account.
+  * Impersonate by using the victim's online identity to send false messages to
     others or to purchase goods and services.
 
 * Compromise of devices
