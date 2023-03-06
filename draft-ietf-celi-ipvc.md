@@ -61,8 +61,7 @@ informative:
 
 --- abstract
 
-This document aims to describe how internet protocols and
-their implementations might better mitigate technical attacks at the user endpoint. Intimate partner violence (IPV) is a pervasive reality for people that can be exacerbated with the usage of technology because the attacker has access to one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. This kind of technical compromise is distinct from active or passive on-path attacks. In this document we describe the tactics this attacker uses and what kind of counter-measures can be designed in IETF protocols.
+This document aims to inform how internet protocols and their implementations might better mitigate technical attacks at the user endpoint, by describing technology-based practices to perpetrate intimate partner violence (IPV). IPV is a pervasive reality for people. It is not limited to, but can be exacerbated with the usage of technology because the attacker has access to one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. This kind of technical compromise is distinct from active or passive on-path attacks [Cite RFC7624 or another one?]. In this document we describe the tactics this attacker uses and what kind of counter-measures can be designed in IETF protocols.
 
 --- middle
 
