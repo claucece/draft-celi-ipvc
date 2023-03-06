@@ -67,17 +67,13 @@ This document aims to inform how internet protocols and their implementations mi
 
 # Introduction
 
-Intimate partner violence (IPV) is a pervasive problem. On average, nearly 20
-people per minute are physically abused by an intimate partner in the United States {{NCAV}}. It occurs in all settings and among all socioeconomic, religious and cultural groups {{WHO}}.
+Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that allows the abuser to cause harm, including romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household. 
 
-Digital technologies are central in modern lives and can be used against targets and survivors of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor internet protocols.
-This lack of considerarion has put pressure on professionals and, in turn, survivors and targets, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their victims.
+Digital technologies are central in modern lives and can be used against targets of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor internet protocols. This lack of consideration has put pressure on professionals and, in turn, survivors and targets, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their targets.
 
-This document describes the tactics used in IPV. It
-provides recommendations for the design of protocols and implementations
-to mitigate those tactics.
+This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics.
 
-In what follows, we first describe IPV, the kind of tactics attackers
+In what follows, we first describe IPV and related terminology, the kind of tactics attackers
 use, and we end with the recommendations.
 
 # Definition of technology-based Intimate Partner Violence (IPV)
