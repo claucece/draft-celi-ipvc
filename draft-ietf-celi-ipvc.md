@@ -168,26 +168,27 @@ the legal owner of the devices/accounts a victim uses.
   * Lock out or change the authentication mechanisms that grant access to the account.
   * Impersonate by using the victim's online identity to send false/forged messages to
     others or to purchase goods and services.
-  * Impersonate by using the victim's online identity to post public information
+  * Impersonate by using the victim's online identity to publicly post information
     that can be private or fake.
 
 * Compromise of devices: This attack is similar to the above, but the attacker
-  demands access to victim's devices. The goal is the same as the above but the
-  result is more impactful as it restricts acess to accounts that are accessed
+  demands access to the victim's devices. The goal is the same as the above but the
+  result is more impactful as it restricts access to accounts that are accessed
   through the device. It can also prevent any connection to the Internet.
-  Once an attacker has access to the device, they can use that to:
-  * Phisicall prevention of usage of the device (to call police services, for example)
+  Once an attacker has access to the device, they can use it to:
+  * Phisical prevention of use of the device (the device can be used, for example,
+    to call police services, which is restricted with this attack)
   * Access contacts and data (media or messages) stored in it
-  * Access to accounts and authentication mechanisms to accounts (saved passwords or
-    authenticator apps -2-factor authentication-)
-  * Impersonation
-  * Denial of access to device, networks or the Internet in general
-  * Destruction to the device itself and any information on it
-  * Impersonate by using the victim's online identity to post public information
-    that can be private or fake.
+  * Access to accounts and authentication mechanisms for other accounts (saved passwords or
+    authenticator apps -2-factor authentication-, for example)
+  * Perform impersonation
+  * Perform denial of access to the device, networks or the Internet in general
+  * Destroy the device itself and any information stored in it
+  * Impersonate by using the victim's online identity as accessed through the device
+    to publicly post information that can be private or fake.
 
 * Exposing of private information or media: This attack builds on top of other attacks.
-  Once an attacker has access to an account or device, they can use the access to get
+  Once an attacker has access to an account or device, they can use this access to gather
   private information or private media stored in it. This can later be used for
   threatening, extortion, doxing (posting private information), and more.
   It can also be used to gather information regarding bank accounts, tax information and more.
@@ -195,16 +196,16 @@ the legal owner of the devices/accounts a victim uses.
 * Denial of access: This attack can be built on top of other attacks. It can consist
   of denying access to a device, but also denying access to the Internet in general
   by destroying routers (or network devices), changing Wi-Fi passwords or network
-  settings. The goal is to disallow access to services or contact with family and friends.
-  It can also take the form of sisrupting digital communications by flooding a
-  victim's communication's tool with unwanted messages or by sending a virus program.
+  settings. The goal is to disallow access to services, or contact with family and friends.
+  It can also take the form of disrupting digital communications by flooding a
+  victim's communication tool with unwanted messages or by sending a virus program.
 
-* Threats: This attack can be a dimension of the previous attack as it can result
+* Threats: This attack can be considered as a dimension of the previous attack as it can result
   on a denial of access attack. It consists on sending e-mail, chat-based messages
   or social media messages that threatens, insults, or harasses a victim.
 
-* Harrassing: This type of attacks seems to appear in different dimensions:
-  * On-going harrassment with the goal of intimidation, humiliation and monitoring.
+* Harrassing: This type of attack seems to appear in different dimensions:
+  * On-going harassment with the goal of intimidation, humiliation and monitoring.
   * Harrassment that appears after a victim has "disconnected" to continue coercion:
     "[Disconnecting] often makes it worse. Clients are much more at risk when they actually separate
     from their abusers because he suddenly no longer has any control over that victim.
@@ -212,6 +213,7 @@ the legal owner of the devices/accounts a victim uses.
     harassing you, calling, texting. If you change your number, now he’s most
     likely going to go crazy. So that’s when he’s going to start stalking you
     any way he can."
+
    Harrassment can be anonymous, but a victim often knows from whom harrassment
    messages/actions come from; but, due to its anonymity, it is unable to hold
    atackers accountable. The systems we have in place often need that harrassment
