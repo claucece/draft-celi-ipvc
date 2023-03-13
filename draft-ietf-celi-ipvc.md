@@ -67,9 +67,9 @@ This document aims to inform how Internet protocols and their implementations mi
 
 # Introduction
 
-Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that allows the abuser to cause harm, including romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
+Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that allows the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
 
-Digital technologies are central in modern lives and can be used against targets of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor Internet protocols. This lack of consideration has put pressure on professionals and, in turn, survivors and targets, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their targets.
+Digital technologies are central in modern lives and can be used as a way to enhance IPV. At the same time, IPV is rarely considered when designing digital technologies, networks, or Internet protocols. This lack of consideration has put pressure on health professionals and social workers to be the ones solving it. In turn, survivors and targets have to develop on their own ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics.
 
