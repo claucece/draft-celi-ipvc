@@ -97,12 +97,12 @@ list their main groups:
   that are solely built to facilitate IPV. These apps are sometimes called "stalkerware" or "spouseware".
 * Dual-use tools: Attackers can use applications, control settings or devices built for beneficial or innocuous
   purposes and repurpose them for harm. This is the case, for example, of anti-theft
-  devices that can be repurposed for tracking.
-* Impersonation attacks: Knowing personal information coupled with acccess to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves.
+  devices that can be repurposed for monitoring.
+* Impersonation attacks: Knowing personal information coupled with access to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves.
 * UI-bound impersonation attacks: Attackers can abuse technology to enhance IPV by abusing the
-  UI of an specific tool. In this case, attackers become authenticated but adversarial users of a
+  UI of a specific tool. In this case, attackers become authenticated but adversarial users of a
   system. They cannot, however, escalate to root privileges or access other underlying
-  functionalities of the system. They are bounded to whatever system they managed
+  functionalities of the system. They are bound to whatever system they managed
   to authenticate to. We will explore later the ways attackers use to forcibly gain
   authentication to a system.
 * Social media and forums: Attackers can learn and share information on how to use
@@ -111,13 +111,14 @@ list their main groups:
   perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
 * Perception of threat: the mere perception of using technology to enhance IPV
   can be used by attackers to control victims and enhance abuse. This can lead
-  to lack of trust in technology and isolation from support from the victims
+  to lack of trust in technology and isolation from support from the victim's
   side.
 
 # Definition of the Attacker
 
-The attacker we present in this document is one that has forceful control of
-accounts, devices, and/or authentication information for accessing systems.
+The attacker we present in this document is one that either has forceful control of
+accounts, devices, and/or authentication information for accessing systems, or uses
+public information to exercise control.
 The kind of attacker can be technologically savvy or not. We define this
 attacker as one of the strongest ones as it can have unlimited access to
 systems and devices.
