@@ -145,7 +145,7 @@ the legal owner of the devices/accounts a victim uses.
   * Monitoring any information found on the UI by looking at laptops screens, or other
     device's screens while the victim is using them.
   * Using the Internet to seek public or private information to compile a
-    victim's personal information for use in harassment
+    victim's personal information for use in harassment.
 
   In this type of attack, we see these dimensions:
 
@@ -177,14 +177,14 @@ the legal owner of the devices/accounts a victim uses.
   through the device. It can also prevent any connection to the Internet.
   Once an attacker has access to the device, they can use it to:
   * Phisical prevention of use of the device (the device can be used, for example,
-    to call police services, which is restricted with this attack)
-  * Access contacts and data (media or messages) stored in it
+    to call police services, which is restricted with this attack).
+  * Access contacts and data (media or messages) stored in it.
   * Access to accounts and authentication mechanisms for other accounts (saved passwords or
-    authenticator apps -2-factor authentication-, for example)
-  * Perform impersonation
-  * Perform denial of access to the device, networks or the Internet in general
-  * Destroy the device itself and any information stored in it
-  * Impersonate by using the victim's online identity as accessed through the device
+    authenticator apps -2-factor authentication-, for example).
+  * Perform impersonation.
+  * Perform denial of access to the device, networks or the Internet in general.
+  * Destroy the device itself and any information stored in it.
+  * Impersonate by using the victim's online identity as accessed through the device.
     to publicly post information that can be private or fake.
 
 * Exposing of private information or media: This attack builds on top of other attacks.
@@ -222,31 +222,51 @@ the legal owner of the devices/accounts a victim uses.
 
 ## Means of attacking
 
+The above attacks can be carried out in different ways. We list there the most
+common ones:
+
 * Installation of spyware or spoofing: This form of attack consists on installing
   unwanted tools into a device in order to gain access to accounts or for active
   monitoring. It can also take the form of remote access by remotely "hacking"
-  security questions or passwords.
-* Coercion and control:
-  * Physically prevent access to devices and/or networks
-  * Physical destruction of the device
-  * Forcing to reveal password or account login mechanisms
-  * Hacking into accounts
-* Shared network plans between family/relationship members
-* Monitoring:
-  * Abuse of social media
-  * Usage of dual-use applications: track my phone
-* Exposure:
-  * Posting harmful content to humiliate
-  * Harass family or friends
-  * Doxxing
-  * Non-consensual sharing of intimate images
+  security questions, passwords or any authentication mechanism. Most of the
+  times, these tools are installed without the victim's knowledge.
+* Coercion and control: This form of attack consists on using coercion and control
+  (which can be physical, emotional or psychological) to gain access to devices,
+  network devices, accounts or digital information. It often takes the form of
+  forcing victims to reveal password or account/devices login mechanisms.
+* Shared network plans between family/relationship members: Often times, an
+  attacker is the legal "owner" of a device (owning children's devices, for example)
+  or accounts (a bank account, for example),
+  or they have access to accounts/devices as they are part of a shared family
+  plan. This enables an attacker to carry out the previously mentioned attacks
+  without the knowledge of the victim and without the need of installation of
+  tools.
+* Monitoring: This means of attack consists on the abuse of social media and any public
+  information from the victim shared through it. It also involves installing
+  tools for active monitoring on devices or using "bening" applications in
+  a dual-use manner (applications, such as the "track my phone" one).
+* Exposure: This means of attack consists on an abuse of social media to enhance
+  harrassment. It consists of using social media to post harmful content to humiliate,
+  to harass family or friends, for doxxing or to non-consensually share
+  intimate/private images.
 
 # Specific abused technology
 
-* Passwords
-* PINs
-* Other authentication methods: fingerprints, devices
-* Media and private information
+In the research of the ways attackers use technology to enhance IPV, we see this
+specific technology being abused:
+
+* Passwords and authentication mechanisms: all authentication mechanisms can be
+  used to enhance IPV as they are the single point of failure for attackers
+  to get access to account and/or devices (and, once they have access to those, they
+  can get further access to other accounts or devices). Attackers can use
+  specialised tools (to be installed in devices) to record authentication
+  mechanisms, they can coerce victims in order to get access to devices, and more.
+  They can also mount these attacks against fingerprints and biometric authentication
+  mechanisms, 2-factor authentication devices and more.
+* Media and private information: attackers can use the access to account/devices
+  to gain access to media and private information. This media can later be
+  used to bribe a victim, to humiliate them (by publicly posting it), to
+  enhance harrassment and more.
 * Recovery of account mechanisms
 * Lack of blocking mechanisms and abuse of anonymous mechanisms:
   * Contact through fake numbers
@@ -258,8 +278,20 @@ the legal owner of the devices/accounts a victim uses.
 
 # Recommendations
 
-* Proper authentication systems
-* Proper blocking systems
+* Proper authentication systems: authentication mechanisms should provide:
+  * A non deletable list of who has access to account/devices.
+  * A way to recover access to an account and to change authentication
+    mechanisms.
+  * Provide mechanisms to revoke access.
+* Storage/Post of media: media should be stored/posted in such a way that:
+  * It can be taken down at the request of a victim if it consists on
+    private media posted without consent.
+  * Provide good and private mechanisms for reporting the posting of
+    non-consented media.
+  * Provide a way to destroy media once a device is in the hands of an attacker.
+* Social media: social media can be a way for attackers to enhance monitoring.
+  They should:
+  * Provide proper blocking systems that are not limited to an individual account.
 * Considering local attackers when designing sensitive apps
 * Plausible deniability for sensitive apps
 
@@ -277,7 +309,6 @@ TODO Security
 # IANA Considerations
 
 This document has no IANA actions.
-
 
 
 --- back
