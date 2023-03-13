@@ -86,7 +86,7 @@ surveillance or subject the target to harassment.
 
 # Terminology used
 
-Attacker, victim/survivor
+Attacker/perpetrator/abuser, victim/survivor
 
 # Types of technology-based Intimate Partner Violence (IPV)
 
@@ -152,19 +152,19 @@ the legal owner of the devices/accounts a victim uses.
   * Monitoring of the UI content of digital tools.
   * Monitoring of location information.
 
-* Compromise of accounts: Research suggests that IPV, a perpetrator may demand
+* Compromise of accounts: Research suggests that in IPV, an attacker may demand
   access to a victim-survivor's devices and accounts for continuous monitoring
   and/or restricting their communication with others. This is different from the
   previous point in that the perpetrator demands access (or uses invasive tools) to tools and contents, rather
-  than using "publicly available" tools. This type of attack is mounted in order
+  than using "publicly available" tools or by monitoring without coercion. This type of attack is mounted in order
   to reduce the "life space" or "space for action" that the victim-survivor may
-  have to perform activities that do not involve their abuser. Once an attacker
+  have to perform activities that do not involve their attacker. Once an attacker
   has access to an online account, they can use that to:
-  * Delete data, which can be communication, documents and more.
+  * Delete data, which can be communication data, documents and more.
   * Have access to friends, family and contacts.
   * Have access to communication, audio-video content, and any associated metadata.
-  * Lock out ot change the authentication mechanisms that grant access to the account.
-  * Impersonate by using the victim's online identity to send false messages to
+  * Lock out or change the authentication mechanisms that grant access to the account.
+  * Impersonate by using the victim's online identity to send false/forged messages to
     others or to purchase goods and services.
 
 * Compromise of devices
