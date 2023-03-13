@@ -84,7 +84,7 @@ close relationship with the victim that can exercise abuse in a romantic or sexu
 "digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
 surveillance or subject the target to harassment.
 
-# Terminology used
+# Terminology
 
 In the rest of this draft, we will use this terminology:
 
