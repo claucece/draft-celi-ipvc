@@ -129,7 +129,7 @@ the legal owner of the devices/accounts a victim uses.
 
 # Kind of attacks
 
-* Monitoring: One of the most prevelant methods to enhance IPV is the usage of
+* Monitoring: One of the most prevalent methods to enhance IPV is the usage of
   active monitoring of any online account that the victim has or of any action that the
   victim does in the digital world. This includes a variety of behaviors that
   feel unwelcomed and intrusive, and can involve threats.
@@ -138,19 +138,20 @@ the legal owner of the devices/accounts a victim uses.
   include:
   * Monitoring e-mail, chat-based or social media communication, or browsing history
     either directly on the victim’s computer or through specialised applications.
-  * Monitoring location and wherabouts by looking at the metadata of communication,
+  * Monitoring location and whereabouts by looking at the metadata of communication,
     by using location-help applications, or by using specialized applications.
   * Monitoring any data sent over the network by mounting DNS attacks or other specialised
     attacks.
-  * Monitoring any information found over the UI by looking at laptops, or other
-    devices while the victim is using them.
+  * Monitoring any information found on the UI by looking at laptops screens, or other
+    device's screens while the victim is using them.
   * Using the Internet to seek public or private information to compile a
     victim's personal information for use in harassment
 
-  On this type of attack, we see these dimensions:
+  In this type of attack, we see these dimensions:
+
   * Monitoring of the content of communications either at the application layer
     or other layers.
-  * Monitoring of the UI content of digital tools.
+  * Monitoring of the UI content of application tools.
   * Monitoring of location information.
 
 * Compromise of accounts: Research suggests that in IPV, an attacker may demand
