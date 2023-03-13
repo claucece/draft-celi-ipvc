@@ -318,3 +318,4 @@ Thanks to:
 
 * Lana Ramjit and Thomas Ristenpart for their insipiring work on this area,
   and guidance for this draft.
+* Shivan Kaul and Pete Snyder for discussions, guidance and support.
