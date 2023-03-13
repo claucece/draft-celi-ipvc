@@ -153,7 +153,7 @@ the legal owner of the devices/accounts a victim uses.
   * Monitoring of location information.
 
 * Compromise of accounts: Research suggests that in IPV, an attacker may demand
-  access to a victim-survivor's devices and accounts for continuous monitoring
+  access to a victim's accounts for continuous monitoring
   and/or restricting their communication with others. This is different from the
   previous point in that the perpetrator demands access (or uses invasive tools) to tools and contents, rather
   than using "publicly available" tools or by monitoring without coercion. This type of attack is mounted in order
@@ -167,19 +167,35 @@ the legal owner of the devices/accounts a victim uses.
   * Impersonate by using the victim's online identity to send false/forged messages to
     others or to purchase goods and services.
 
-* Compromise of devices
-  * Access to contacts and data
-  * Access to accounts
+* Compromise of devices: This attack is similar to the above, but the attacker
+  demands access to victim's devices. The goal is the same as the above but the
+  result is more impactful as it restricts acess to accounts that are accessed
+  through the device. It can also prevent any connection to the Internet.
+  Once an attacker has access to the device, they can use that to:
+  * Phisicall prevention of usage of the device (to call police services, for example)
+  * Access contacts and data (media or messages) stored in it
+  * Access to accounts and authentication mechanisms to accounts (saved passwords or
+    authenticator apps)
   * Impersonation
-  * Denial of access to device or networks, or destruction
-* Exposing of private information or media
-* Denial of access:
-  * Device is the main mean of contact to family and friends
-  * Disrupting digital communications by flooding a victim's communication's tool
-    with unwanted messages or by sending a virus program.
+  * Denial of access to device, networks or the Internet in general
+  * Destruction to the device itself and any information on it
+
+* Exposing of private information or media: This attack builds on top of other attacks.
+  Once an attacker has access to an account or device, they can use the access to get
+  private information or private media stored in it. This can later be used for
+  threatening, doxing, and more.
+
+* Denial of access: This attack can be built on top of other attacks. It can consist
+  of denying access to a device, but also denying access to the Internet in general
+  by destroying routers (or network devices), changing Wi-Fi passwords or network
+  settings. The goal is to disallow access to services or contact with family and friends.
+  It can also take the form of sisrupting digital communications by flooding a
+  victim's communication's tool with unwanted messages or by sending a virus program.
+
 * Threats
   * Sending e-mail, chat-based messages or social media messages that threatens,
     insults, or harasses.
+
 * Harrassing: This type of attacks seems to appear in different dimensions:
   * On-going harrassment with the goal of intimidation, humiliation and monitoring.
   * Harrassment that appears after a victim has "disconnected" to continue coercion:
@@ -197,8 +213,10 @@ the legal owner of the devices/accounts a victim uses.
 
 ## Means of attacking
 
-* Installation of spyware or spoofing:
-  * Remote access
+* Installation of spyware or spoofing: This form of attack consists on installing
+  unwanted tools into a device in order to gain access to accounts or for active
+  monitoring. It can also take the form of remote access by remotely "hacking"
+  security questions or passwords.
 * Coercion and control:
   * Physically prevent access to devices and/or networks
   * Physical destruction of the device
