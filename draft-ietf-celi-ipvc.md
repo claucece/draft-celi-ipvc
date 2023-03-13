@@ -225,30 +225,30 @@ the legal owner of the devices/accounts a victim uses.
 The above attacks can be carried out in different ways. We list there the most
 common ones:
 
-* Installation of spyware or spoofing: This form of attack consists on installing
+* Installation of spyware or spoofing: This form of attack consists of installing
   unwanted tools into a device in order to gain access to accounts or for active
   monitoring. It can also take the form of remote access by remotely "hacking"
   security questions, passwords or any authentication mechanism. Most of the
-  times, these tools are installed without the victim's knowledge.
-* Coercion and control: This form of attack consists on using coercion and control
+  time, these tools are installed without the victim's knowledge.
+* Coercion and control: This form of attack consists of using coercion and control
   (which can be physical, emotional or psychological) to gain access to devices,
   network devices, accounts or digital information. It often takes the form of
-  forcing victims to reveal password or account/devices login mechanisms.
+  forcing victims to reveal passwords or account/devices authentication mechanisms.
 * Shared network plans between family/relationship members: Often times, an
   attacker is the legal "owner" of a device (owning children's devices, for example)
   or accounts (a bank account, for example),
   or they have access to accounts/devices as they are part of a shared family
   plan. This enables an attacker to carry out the previously mentioned attacks
-  without the knowledge of the victim and without the need of installation of
+  without the knowledge of the victim and without the need for installation of
   tools.
-* Monitoring: This means of attack consists on the abuse of social media and any public
-  information from the victim shared through it. It also involves installing
+* Monitoring: This means of attack consists of the abuse of social media and any public
+  information found on digital tools from the victim that has been shared through it. It also involves installing
   tools for active monitoring on devices or using "bening" applications in
   a dual-use manner (applications, such as the "track my phone" one).
-* Exposure: This means of attack consists on an abuse of social media to enhance
+* Exposure: This means of attack consists of the abuse of social media to enhance
   harrassment. It consists of using social media to post harmful content to humiliate,
   to harass family or friends, for doxxing or to non-consensually share
-  intimate/private images.
+  intimate/private media.
 
 # Specific abused technology
 
@@ -256,27 +256,32 @@ In the research of the ways attackers use technology to enhance IPV, we see this
 specific technology being abused:
 
 * Passwords and authentication mechanisms: all authentication mechanisms can be
-  used to enhance IPV as they are the single point of failure for attackers
+  used to enhance IPV as they are the single point of failure used by attackers
   to get access to account and/or devices (and, once they have access to those, they
   can get further access to other accounts or devices). Attackers can use
   specialised tools (to be installed in devices) to record authentication
   mechanisms, they can coerce victims in order to get access to devices, and more.
   They can also mount these attacks against fingerprints and biometric authentication
-  mechanisms, 2-factor authentication devices and more.
+  mechanisms, 2-factor authentication devices/applications and more.
 * Media and private information: attackers can use the access to account/devices
   to gain access to media and private information. This media can later be
   used to bribe a victim, to humiliate them (by publicly posting it), to
   enhance harrassment and more.
-* Recovery of account mechanisms
-* Lack of blocking mechanisms and abuse of anonymous mechanisms:
-  * Contact through fake numbers
-  * Contact through fake accounts
-  * Open messages system of social media: anyone can send a DM, etc.
-  * Abuse of read-recipes: 'I know you read the message'
-  * Lack of proper UI for blocking
-  * “Facebook is really a stalker’s paradise.”
+* Recovery of account mechanisms: as with authentication mechanisms, attackers
+  can use 2-factor authentication devices or accounts to get access to other
+  accounts.
+* Lack of blocking mechanisms and abuse of anonymous mechanisms: Often times
+  attackers carry out abuse by:
+  * Contacting through fake numbers
+  * Contacting through fake accounts
+  * Sending messages to applications that have a "open" chanel for receiving any
+    message.
+  * Abusing of read-recipes to enhance control.
+  * Abusing the lack of blocking mechanisms.
 
 # Recommendations
+
+We list here some recommendations to stop this abuse:
 
 * Proper authentication systems: authentication mechanisms should provide:
   * A non deletable list of who has access to account/devices.
@@ -292,13 +297,12 @@ specific technology being abused:
 * Social media: social media can be a way for attackers to enhance monitoring.
   They should:
   * Provide proper blocking systems that are not limited to an individual account.
+  * Provide mechanisms by which only "accepted" people are able to send messages
+    to an account.
 * Browser history or searching information should be deleted by default.
-* Considering local attackers when designing sensitive apps
-* Plausible deniability for sensitive apps
-
-# Recommendations that do not work
-
-* Disconnecting or ceasing the use of technology
+* End-to-end encryption must be the default in order to prevent network monitoring.
+* Considering local attackers when designing sensitive applications.
+* Plausible deniability for sensitive applications.
 
 # Security Considerations
 
