@@ -61,15 +61,15 @@ informative:
 
 --- abstract
 
-This document aims to inform how internet protocols and their implementations might better mitigate technical attacks at the user endpoint, by describing technology-based practices to perpetrate intimate partner violence (IPV). IPV is a pervasive reality for people. It is not limited to, but can be exacerbated with the usage of technology because the attacker has access to one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. This kind of technical compromise is distinct from active or passive on-path attacks [Cite RFC7624 or another one?]. In this document we describe the tactics this attacker uses and what kind of counter-measures can be designed in IETF protocols.
+This document aims to inform how Internet protocols and their implementations might better mitigate technical attacks at the user endpoint, by describing technology-based practices to perpetrate intimate partner violence (IPV). IPV is a pervasive reality for people. It is not limited to, but can be exacerbated with the usage of technology because the attacker has access to one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. This kind of technical compromise is distinct from active or passive on-path attacks [Cite RFC7624 or another one?]. In this document we describe the tactics this attacker uses and what kind of counter-measures can be designed in IETF protocols.
 
 --- middle
 
 # Introduction
 
-Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that allows the abuser to cause harm, including romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household. 
+Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that allows the abuser to cause harm, including romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
 
-Digital technologies are central in modern lives and can be used against targets of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor internet protocols. This lack of consideration has put pressure on professionals and, in turn, survivors and targets, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their targets.
+Digital technologies are central in modern lives and can be used against targets of IPV. At the same time IPV is rarely considered when designing digital technologies, networks, nor Internet protocols. This lack of consideration has put pressure on professionals and, in turn, survivors and targets, to develop ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can coerce their targets.
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics.
 
@@ -84,6 +84,12 @@ close relationship with the victim that can exercise abuse in a romantic or sexu
 "digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
 surveillance or subject the target to harassment.
 
+# Terminology used
+
+Attacker, victim/survivor
+
+# Types of technology-based Intimate Partner Violence (IPV)
+
 There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally
 list their main groups:
 
@@ -92,15 +98,15 @@ list their main groups:
 * Dual-use tools: Attackers can use applications, control settings or devices built for beneficial or innocuous
   purposes and repurpose them for harm. This is the case, for example, of anti-theft
   devices that can be repurposed for tracking.
-* Impersonation attacks: Knowing personal information coupled with acccess to devices gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them, sometimes to the degree that the victim can no longer successfully authenticate themselves.
+* Impersonation attacks: Knowing personal information coupled with acccess to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves.
 * UI-bound impersonation attacks: Attackers can abuse technology to enhance IPV by abusing the
-  UI. In this case, attackers become authenticated but adversarial users of a
-  system. They cannot, however, escalate to root privileges or access other
+  UI of an specific tool. In this case, attackers become authenticated but adversarial users of a
+  system. They cannot, however, escalate to root privileges or access other underlying
   functionalities of the system. They are bounded to whatever system they managed
-  to authenticate to. We will explore later the ways attackers use forcibly gain
+  to authenticate to. We will explore later the ways attackers use to forcibly gain
   authentication to a system.
 * Social media and forums: Attackers can learn and share information on how to use
-  technology to enhance IPV through the usage of these applications. They can also
+  technology to enhance IPV through the usage of these tools. They can also
   receive narrative justification to condone their behaviour. They can also
   perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
 * Perception of threat: the mere perception of using technology to enhance IPV
