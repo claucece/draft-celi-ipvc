@@ -34,6 +34,7 @@ author:
 normative:
 
 informative:
+  RFC7624:
   NCAV:
     target: https://ncadv.org/learn-more/statistics
     title: "National Statistics Domestic Violence"
@@ -61,49 +62,41 @@ informative:
 
 --- abstract
 
-This document aims to inform how Internet protocols and their implementations might better mitigate technical attacks at the user endpoint, by describing technology-based practices to perpetrate intimate partner violence (IPV). IPV is a pervasive reality for people. It is not limited to, but can be exacerbated with the usage of technology because the attacker has access to one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. This kind of technical compromise is distinct from active or passive on-path attacks [Cite RFC7624 or another one?]. In this document we describe the tactics this attacker uses and what kind of counter-measures can be designed in IETF protocols.
+This document aims to inform how Internet protocols and their implementations might better mitigate technical attacks at the user endpoint by describing technology-based practices to perpetrate intimate partner violence (IPV). IPV is a pervasive reality that is not limited to, but can be exacerbated with, the usage of technology. The IPV context enables the attacker to access one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. These kinds of technical compromise exist in addition to on-path attacks, both active and passive {{RFC7624}}. In this document we describe the tactics the IPV attacker uses and what kind of counter-measures can be designed in IETF protocols.
 
 --- middle
 
 # Introduction
 
-Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that allows the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
+Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
 
-Digital technologies are central in modern lives and can be used as a way to enhance IPV. At the same time, IPV is rarely considered when designing digital technologies, networks, or Internet protocols. This lack of consideration has put pressure on health professionals and social workers to be the ones solving it. In turn, survivors and targets have to develop on their own ad-hoc strategies for digital privacy and safety. It adds even more preasure as this type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
+Digital technologies are central in modern lives and can be used as a way to enable and enhance IPV. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. This lack of consideration has put pressure on health professionals and social workers to mitigate technology-enabled abuse and its effects. In turn, survivors and targets develop ad hoc strategies for digital privacy and safety for themselves alone and only in rare cases are protocol design or cybersecurity best practice available tactics. This type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
 
-This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics.
-
-In what follows, we first describe IPV and related terminology, the kind of tactics attackers
-use, and we end with the recommendations.
+This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
 # Definition of technology-based Intimate Partner Violence (IPV)
 
-IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person
-by a current or former intimate partner. By "partner" we mean anyone with a
-close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. It is understood in these cases that there is an unequal power relationship that allows the attacker to cause harm. Technology plays a role in IPV by the means of pervasive surveillance and coercive access. {{Dragiewicz2018}} calls this
-"digital coercive control" whereby technology becomes a mechanism of control-- through access to devices or accounts-- or to conduct
-surveillance or subject the target to harassment.
+Technology enables and enhances IPV attacks with pervasive surveillance, overt monitoring, and coercive access. IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. By "partner" we mean anyone with a close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. In cases of IPV there is an unequal power relationship that enables the attacker to cause harm. {{Dragiewicz2018}} calls this "digital coercive control" whereby Internet-enabled technology-- through access to local networks, devices and accounts-- becomes a mechanism to exert control, to conduct surveillance, or to aggravate and harass.
 
-# Terminology
+# Terminology used
 
 In the rest of this draft, we will use this terminology:
 
 * Attacker: By "attacker" we mean an abuser in an IPV situation that is using
-  digital tools to enhance its abuse. It can also be referred as "perpetrator".
+  digital tools to enable and enhance abuse. An attacker can also be referred as "perpetrator".
 * Victim: By "victim" we mean the subject of a attack. Notice that we are using
   this term only in the context of an attack scenario: we prefer the term "survivor"
   otherwise.
 
 # Types of technology-based Intimate Partner Violence (IPV)
 
-There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally
-list their main groups:
+There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally list their main groups:
 
 * Ready-made tools: Attackers can use applications or devices
   that are solely built to facilitate IPV. These apps are sometimes called "stalkerware" or "spouseware".
 * Dual-use tools: Attackers can use applications, control settings or devices built for beneficial or innocuous
   purposes and repurpose them for harm. This is the case, for example, of anti-theft
-  devices that can be repurposed for monitoring.
+  devices that can be repurposed for stalking.
 * Impersonation attacks: Knowing personal information coupled with access to authentication mechanisms gives an attacker the ability to fully authenticate to services and accounts of the victim, effectively impersonating them. This can be executed to the degree that the victim can no longer successfully authenticate themselves.
 * UI-bound impersonation attacks: Attackers can abuse technology to enhance IPV by abusing the
   UI of a specific tool. In this case, attackers become authenticated but adversarial users of a
