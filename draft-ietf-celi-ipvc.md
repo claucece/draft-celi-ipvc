@@ -86,7 +86,13 @@ surveillance or subject the target to harassment.
 
 # Terminology used
 
-Attacker/perpetrator/abuser, victim/survivor
+On the rest of this draft, we will use this terminology:
+
+* Attacker: By "attacker" we mean an abuser in a IPV situation that is using
+  digital tools to enhance its abuse. It can also be referred as "perpetrator".
+* Victim: By "victim" we mean the subject of a attack. Notice that we are using
+  this term only in the context of an attack scenario: we prefer the term "survivor"
+  otherwise.
 
 # Types of technology-based Intimate Partner Violence (IPV)
 
