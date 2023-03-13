@@ -74,11 +74,11 @@ Digital technologies are central in modern lives and can be used as a way to ena
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
-# Definition of technology-based Intimate Partner Violence (IPV)
+# Definition of technology-based IPV
 
 Technology enables and enhances IPV attacks with pervasive surveillance, overt monitoring, and coercive access. IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. By "partner" we mean anyone with a close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. In cases of IPV there is an unequal power relationship that enables the attacker to cause harm. {{Dragiewicz2018}} calls this "digital coercive control" whereby Internet-enabled technology-- through access to local networks, devices and accounts-- becomes a mechanism to exert control, to conduct surveillance, or to aggravate and harass.
 
-# Terminology used
+## Terminology
 
 In the rest of this draft, we will use this terminology:
 
@@ -88,7 +88,24 @@ In the rest of this draft, we will use this terminology:
   this term only in the context of an attack scenario: we prefer the term "survivor"
   otherwise.
 
-# Types of technology-based Intimate Partner Violence (IPV)
+# Technology-based IPV attacks
+
+In order to describe IPV attacks that are enabled or exacerbated by Internet technology, we first describe our assumptions about the attacker and common tactics that can be used. Then the types of technology-enabled IPV attacks are described.
+
+## The intimate attacker
+
+The attacker we present in this document is one that either has forceful control of
+accounts, devices, and/or authentication information for accessing systems, or uses
+public information to exercise control.
+The kind of attacker can be technologically savvy or not. We define this
+attacker as one of the strongest ones as it can have unlimited access to
+systems and devices.
+
+The attacker has some kind of physical access to the victim (or has had it in the past),
+and often shares a common social network with them. In some cases, it can be
+the legal owner of the devices/accounts a victim uses.
+
+## Tech-based IPV tactics
 
 There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally list their main groups:
 
@@ -108,25 +125,11 @@ There are many ways in which digital and networked technology can facilitate an 
   technology to enhance IPV through the usage of these tools. They can also
   receive narrative justification to condone their behaviour. They can also
   perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
-* Perception of threat: the mere perception of using technology to enhance IPV
-  can be used by attackers to control victims and enhance abuse. This can lead
-  to lack of trust in technology and isolation from support from the victim's
-  side.
+* Perception of threat: The mere presence of a pervasive threat is a form of control. The perception that technology can be used to enhance IPV
+  is a tactic of attackers to control victims, take away agency and abuse them. This can lead
+  to lack of trust in technology and further isolates the victim from seeking and receiving support.
 
-# Definition of the Attacker
-
-The attacker we present in this document is one that either has forceful control of
-accounts, devices, and/or authentication information for accessing systems, or uses
-public information to exercise control.
-The kind of attacker can be technologically savvy or not. We define this
-attacker as one of the strongest ones as it can have unlimited access to
-systems and devices.
-
-The attacker has some kind of physical access to the victim (or has had it in the past),
-and often shares a common social network with them. In some cases, it can be
-the legal owner of the devices/accounts a victim uses.
-
-# Kind of attacks
+## Kinds of tech-enabled IPV attacks
 
 * Monitoring: One of the most prevalent methods to enhance IPV is the usage of
   active monitoring of any online account that the victim has or of any action that the
@@ -280,14 +283,14 @@ specific technology being abused:
 
 # Recommendations
 
-We list here some recommendations to stop this abuse:
+We list here some recommendations to protocol designers to mitigate technology-enabled IPV:
 
-* Proper authentication systems: authentication mechanisms should provide:
+* Build proper authentication systems: authentication mechanisms should provide:
   * A non-deletable and non-modifiable list of who has access to accounts/devices.
   * A way to recover access to an account and to change authentication
     mechanisms.
   * Provide mechanisms to revoke access.
-* Storage/Post of media: media should be stored/posted in such a way that:
+* Storage and sharing of media: media should be stored/posted in such a way that:
   * It can be taken down at the request of a victim if it consists of
     private media posted without consent.
   * Provide good and private mechanisms for reporting the posting of
@@ -304,9 +307,6 @@ We list here some recommendations to stop this abuse:
 * Plausible deniability for sensitive applications.
 
 # Security Considerations
-
-TODO Security
-
 
 # IANA Considerations
 
