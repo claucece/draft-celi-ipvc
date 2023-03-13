@@ -292,14 +292,13 @@ specific technology being abused:
 * Social media: social media can be a way for attackers to enhance monitoring.
   They should:
   * Provide proper blocking systems that are not limited to an individual account.
+* Browser history or searching information should be deleted by default.
 * Considering local attackers when designing sensitive apps
 * Plausible deniability for sensitive apps
 
 # Recommendations that do not work
 
 * Disconnecting or ceasing the use of technology
-
-# Effects on society
 
 # Security Considerations
 
@@ -308,12 +307,14 @@ TODO Security
 
 # IANA Considerations
 
-This document has no IANA actions.
-
+This document has no actions for IANA.
 
 --- back
 
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
+Thanks to:
+
+* Lana Ramjit and Thomas Ristenpart for their insipiring work on this area,
+  and guidance for this draft.
