@@ -248,11 +248,11 @@ common ones:
   without the knowledge of the victim and without the need for installation of
   tools.
 * Monitoring: This means of attack consists of the abuse of social media and any public
-  information found on digital tools from the victim that has been shared through it. It also involves installing
+  information found on digital tools from the victim that has been shared through them. It also involves installing
   tools for active monitoring on devices or using "bening" applications in
   a dual-use manner (applications, such as the "track my phone" one).
 * Exposure: This means of attack consists of the abuse of social media to enhance
-  harrassment. It consists of using social media to post harmful content to humiliate,
+  harassment. It consists of using social media to post harmful content to humiliate,
   to harass family or friends, for doxxing or to non-consensually share
   intimate/private media.
 
@@ -263,19 +263,19 @@ specific technology being abused:
 
 * Passwords and authentication mechanisms: all authentication mechanisms can be
   used to enhance IPV as they are the single point of failure used by attackers
-  to get access to account and/or devices (and, once they have access to those, they
+  to get access to the account and/or devices (and, once they have access to those, they
   can get further access to other accounts or devices). Attackers can use
   specialised tools (to be installed in devices) to record authentication
   mechanisms, they can coerce victims in order to get access to devices, and more.
   They can also mount these attacks against fingerprints and biometric authentication
   mechanisms, 2-factor authentication devices/applications and more.
-* Media and private information: attackers can use the access to account/devices
+* Media and private information: attackers can use the access to accounts/devices
   to gain access to media and private information. This media can later be
   used to bribe a victim, to humiliate them (by publicly posting it), to
-  enhance harrassment and more.
+  enhance harassment and more.
 * Recovery of account mechanisms: as with authentication mechanisms, attackers
-  can use 2-factor authentication devices or accounts to get access to other
-  accounts.
+  can use 2-factor authentication devices, accounts and/or applications to get access to other
+  accounts or profiles
 * Lack of blocking mechanisms and abuse of anonymous mechanisms: Often times
   attackers carry out abuse by:
   * Contacting through fake numbers
@@ -290,12 +290,12 @@ specific technology being abused:
 We list here some recommendations to stop this abuse:
 
 * Proper authentication systems: authentication mechanisms should provide:
-  * A non deletable list of who has access to account/devices.
+  * A non-deletable and non-modifiable list of who has access to accounts/devices.
   * A way to recover access to an account and to change authentication
     mechanisms.
   * Provide mechanisms to revoke access.
 * Storage/Post of media: media should be stored/posted in such a way that:
-  * It can be taken down at the request of a victim if it consists on
+  * It can be taken down at the request of a victim if it consists of
     private media posted without consent.
   * Provide good and private mechanisms for reporting the posting of
     non-consented media.
@@ -305,7 +305,7 @@ We list here some recommendations to stop this abuse:
   * Provide proper blocking systems that are not limited to an individual account.
   * Provide mechanisms by which only "accepted" people are able to send messages
     to an account.
-* Browser history or searching information should be deleted by default.
+* Browser history or searching information/metadata should be deleted by default.
 * End-to-end encryption must be the default in order to prevent network monitoring.
 * Considering local attackers when designing sensitive applications.
 * Plausible deniability for sensitive applications.
