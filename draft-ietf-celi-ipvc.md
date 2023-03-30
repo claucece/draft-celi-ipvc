@@ -70,7 +70,11 @@ This document aims to inform how Internet protocols and their implementations mi
 
 Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
 
-Digital technologies are central in modern lives and can be used as a way to enable and enhance IPV. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. This lack of consideration has put pressure on health professionals and social workers to mitigate technology-enabled abuse and its effects. In turn, survivors and targets develop ad hoc strategies for digital privacy and safety for themselves alone and only in rare cases are protocol design or cybersecurity best practice available tactics. This type of abuser, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
+Digital technologies are central in modern lives and can be used as a way to enable and enhance IPV. Technology-based IPV has impact on the physical, psychological and emotional health of survivors, affecting them not only individually but their social environment [ref].
+
+There is significant existing work in the field of online gender based violence [ref] and technology-based IPV [ref] mainly focused on response and resiliency, including digital privacy and safety strategies. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices available tactics [ref].
+
+The type of abuser that is close and familiar to the victim, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
@@ -82,11 +86,10 @@ Technology enables and enhances IPV attacks with pervasive surveillance, overt m
 
 In the rest of this draft, we will use this terminology:
 
-* Attacker: By "attacker" we mean an abuser in an IPV situation that is using
-  digital tools to enable and enhance abuse. An attacker can also be referred as "perpetrator".
-* Victim: By "victim" we mean the subject of a attack. Notice that we are using
-  this term only in the context of an attack scenario: we prefer the term "survivor"
-  otherwise.
+* Attacker: By "attacker" we mean a person, an abuser in an IPV situation that is using
+  digital tools to enable and enhance abuse. An attacker can also be referred to as "perpetrator".
+* Victim: By "victim" we mean a person who is subject or target of an attack. Notice that we are using
+  this term only in the temporary context of an attack scenario. We prefer the term "survivor", which recognizes the agency and resistance tactics of those facing IPV, but for the purposes of this document we focus on the fact of being subject of specific technology-based IPV attacks.
 
 # Technology-based IPV attacks
 
@@ -97,9 +100,9 @@ In order to describe IPV attacks that are enabled or exacerbated by Internet tec
 The attacker we present in this document is one that either has forceful control of
 accounts, devices, and/or authentication information for accessing systems, or uses
 public information to exercise control.
-The kind of attacker can be technologically savvy or not. We define this
+This kind of attacker can be technologically savvy or not. We define this
 attacker as one of the strongest ones as it can have unlimited access to
-systems and devices.
+systems and devices, whithout investing a lot of financial resources.
 
 The attacker has some kind of physical access to the victim (or has had it in the past),
 and often shares a common social network with them. In some cases, it can be
@@ -138,7 +141,7 @@ There are many ways in which digital and networked technology can facilitate an 
   The monitoring is "active" in that is a permanent action that the victim can be
   aware of or not, and that the abuser might want to make them aware or not. It can
   include:
-  * Monitoring e-mail, chat-based or social media communication, or browsing history
+  * Monitoring e-mail, chat-based or social media communications, or browsing history
     either directly on the victim’s computer or through specialised applications.
   * Monitoring location and whereabouts by looking at the metadata of communication,
     by using location-help applications, or by using specialized applications.
@@ -156,17 +159,10 @@ There are many ways in which digital and networked technology can facilitate an 
   * Monitoring of the UI content of application tools.
   * Monitoring of location information.
 
-* Compromise of accounts: Research suggests that in IPV, an attacker may demand
-  access to a victim's accounts for continuous monitoring
-  and/or restricting their communication with others. This is different from the
-  previous point in that the perpetrator demands access (or uses invasive tools) to tools and contents, rather
-  than using "publicly available" tools or by monitoring without coercion. This type of attack is mounted in order
-  to reduce the "life space" or "space for action" that the victim-survivor may
-  have to perform activities that do not involve their attacker. Once an attacker
-  has access to an online account, they can use that to:
+* Compromise of accounts: Research suggests [ref] that in IPV, an attacker may demand access to a victim's accounts for continuous monitoring and/or restricting their communication with others. This is different from the previous point in that the perpetrator demands access to (or manages to invade / or access by force) tools and contents, rather than using "publicly available" tools or by monitoring without coercion. This type of attack is mounted in order to reduce the "life space" or "space for action" that the victim-survivor may have to perform activities that do not involve their attacker. Once an attacker has access to an online account, they can use that to:
   * Delete data, which can be communication data, documents and more.
-  * Have access to friends, family and contacts.
-  * Have access to communication, audio-video content, and any associated metadata.
+  * Have access to contacts such as friends, family or colleagues.
+  * Have access to communications, audio-video content, and any associated metadata.
   * Lock out or change the authentication mechanisms that grant access to the account.
   * Impersonate by using the victim's online identity to send false/forged messages to
     others or to purchase goods and services.
@@ -178,7 +174,7 @@ There are many ways in which digital and networked technology can facilitate an 
   result is more impactful as it restricts access to accounts that are accessed
   through the device. It can also prevent any connection to the Internet.
   Once an attacker has access to the device, they can use it to:
-  * Phisical prevention of use of the device (the device can be used, for example,
+  * Phisically prevent the use of the device (the device can be used, for example,
     to call police services, which is restricted with this attack).
   * Access contacts and data (media or messages) stored in it.
   * Access to accounts and authentication mechanisms for other accounts (saved passwords or
@@ -208,13 +204,7 @@ There are many ways in which digital and networked technology can facilitate an 
 
 * Harrassing: This type of attack seems to appear in different dimensions:
   * On-going harassment with the goal of intimidation, humiliation and monitoring.
-  * Harrassment that appears after a victim has "disconnected" to continue coercion:
-    "[Disconnecting] often makes it worse. Clients are much more at risk when they actually separate
-    from their abusers because he suddenly no longer has any control over that victim.
-    So often the only thing left is through the phone, so he’s going to start
-    harassing you, calling, texting. If you change your number, now he’s most
-    likely going to go crazy. So that’s when he’s going to start stalking you
-    any way he can."
+  * Harrassment that appears after a victim has [disconnected] to continue coercion. When the abuser no longer have any physical control over the victim they can start to stalk them.
 
    Harrassment can be anonymous, but a victim often knows from whom harrassment
    messages/actions come from; but, due to its anonymity, it is unable to hold
@@ -224,7 +214,7 @@ There are many ways in which digital and networked technology can facilitate an 
 
 ## Means of attacking
 
-The above attacks can be carried out in different ways. We list there the most
+The above attacks can be carried out in different ways. We list here the most
 common ones:
 
 * Installation of spyware or spoofing: This form of attack consists of installing
@@ -245,7 +235,7 @@ common ones:
   tools.
 * Monitoring: This means of attack consists of the abuse of social media and any public
   information found on digital tools from the victim that has been shared through them. It also involves installing
-  tools for active monitoring on devices or using "bening" applications in
+  tools for active monitoring on devices or using "benign" applications in
   a dual-use manner (applications, such as the "track my phone" one).
 * Exposure: This means of attack consists of the abuse of social media to enhance
   harassment. It consists of using social media to post harmful content to humiliate,
