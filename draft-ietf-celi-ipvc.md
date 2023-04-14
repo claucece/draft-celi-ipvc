@@ -59,6 +59,23 @@ informative:
     author:
       - name: World Health Organization
     date: 2012
+  Freed:
+    target: https://doi.org/10.1145/3134681
+    title: "Technologies and Intimate Partner Violence: A Qualitative Analysis with Multiple Stakeholders"
+    author:
+      - name: Diana Freed
+      - name: Jackeline Palmer
+      - name: Diana Minchala
+      - name: Karen Levy
+      - name: Thomas Ristenpart
+      - name: Nicola Dell
+    date: 2017
+  Citron:
+    target: https://wwnorton.com/books/9780393882315
+    title: "The Fight for Privacy: Protecting Dignity, Identity, and Love in the Digital Age"
+    author:
+      - name: Danielle Keats Citron
+    date: 2023
 
 --- abstract
 
@@ -68,11 +85,11 @@ This document aims to inform how Internet protocols and their implementations mi
 
 # Introduction
 
-Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
+Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner.{{WHO}} It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
 
 Digital technologies are central in modern lives and can be used as a way to enable and enhance IPV. Technology-based IPV has impact on the physical, psychological and emotional health of survivors, affecting them not only individually but their social environment [ref].
 
-There is significant existing work in the field of online gender based violence [ref] and technology-based IPV [ref] mainly focused on response and resiliency, including digital privacy and safety strategies. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices available tactics [ref].
+There is significant existing work in the field of online gender based violence [ref] and technology-based IPV {{Freed}} mainly focused on response and resiliency, including digital privacy and safety strategies. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices available tactics [ref].
 
 The type of abuser that is close and familiar to the victim, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
 
@@ -202,15 +219,13 @@ There are many ways in which digital and networked technology can facilitate an 
   on a denial of access attack. It consists on sending e-mail, chat-based messages
   or social media messages that threatens, insults, or harasses a victim.
 
-* Harrassing: This type of attack seems to appear in different dimensions:
-  * On-going harassment with the goal of intimidation, humiliation and monitoring.
-  * Harrassment that appears after a victim has [disconnected] to continue coercion. When the abuser no longer have any physical control over the victim they can start to stalk them.
-
-   Harrassment can be anonymous, but a victim often knows from whom harrassment
+* Harrassing: Harrassment can be anonymous, but a victim often knows from whom harrassment
    messages/actions come from; but, due to its anonymity, it is unable to hold
    atackers accountable. The systems we have in place often need that harrassment
    content is permanently available so that an investigation takes place. This
-   enhances the abuse a victim is suffering.
+   enhances the abuse a victim is suffering. This type of attack appears in different dimensions:
+  * On-going harassment with the goal of intimidation, humiliation and monitoring.
+  * Harrassment that appears after a victim has [disconnected] to continue coercion. When the abuser no longer has any physical control over the victim they can start to stalk them.
 
 ## Means of attacking
 
@@ -280,6 +295,7 @@ We list here some recommendations to protocol designers to mitigate technology-e
   * A way to recover access to an account and to change authentication
     mechanisms.
   * Provide mechanisms to revoke access.
+  * Send clear notifications when new devices are used to access an account.
 * Storage and sharing of media: media should be stored/posted in such a way that:
   * It can be taken down at the request of a victim if it consists of
     private media posted without consent.
@@ -292,9 +308,18 @@ We list here some recommendations to protocol designers to mitigate technology-e
   * Provide mechanisms by which only "accepted" people are able to send messages
     to an account.
 * Browser history or searching information/metadata should be deleted by default.
-* End-to-end encryption must be the default in order to prevent network monitoring.
-* Considering local attackers when designing sensitive applications.
-* Plausible deniability for sensitive applications.
+* End-to-end encryption must be the default for any messaging in order to prevent network monitoring.
+* Consider local attackers when designing sensitive applications.
+* Engineer plausible deniability for sensitive applications.
+* Build detection tools and improve logging and analytics for user agents and devices with IPV in mind.
+
+It is important to note that IPV should not be mistaken to be a privacy issue alone. Furthermore any tech-based solutions and interventions that only address privacy can be used by attackers, helping them to cloak their attacks from the victim and other means of detection. Power is imbalanced in IPV and technology entrenches power.{{Citron}}
+
+# Resources
+
+* Cornell Tech's Clinic to End Tech Abuse https://www.ceta.tech.cornell.edu/
+* List of domestic violence hotlines around the world https://en.wikipedia.org/wiki/List_of_domestic_violence_hotlines
+* Procedures and tools for clinical computer security https://www.usenix.org/conference/usenixsecurity19/presentation/havron
 
 # Security Considerations
 
