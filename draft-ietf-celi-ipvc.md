@@ -185,6 +185,7 @@ There are many ways in which digital and networked technology can facilitate an 
     others or to purchase goods and services.
   * Impersonate by using the victim's online identity to publicly post information
     that can be private or fake.
+  * Impersonate by using the victim's online or legal identity to sign victims up for services.
 
 * Compromise of devices: This attack is similar to the above, but the attacker
   demands access to the victim's devices. The goal is the same as the above but the
