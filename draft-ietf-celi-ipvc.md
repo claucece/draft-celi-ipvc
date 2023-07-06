@@ -176,7 +176,7 @@ There are many ways in which digital and networked technology can facilitate an 
   * Monitoring of the UI content of application tools.
   * Monitoring of location information.
 
-* Compromise of accounts: Research suggests [ref] that in IPV, an attacker may demand access to a victim's accounts for continuous monitoring and/or restricting their communication with others. This is different from the previous point in that the perpetrator demands access to (or manages to invade / or access by force) tools and contents, rather than using "publicly available" tools or by monitoring without coercion. This type of attack is mounted in order to reduce the "life space" or "space for action" that the victim-survivor may have to perform activities that do not involve their attacker. Once an attacker has access to an online account, they can use that to:
+* Compromise of accounts: An attacker may demand access to the victim's accounts to continuously monitor, control or restrict their online communications and activities. In contrast to the previous point, rather than using "publicly available" tools the perpetrator demands access to tools and contents in order to reduce the "life space" or "space for action" that the victim-survivor may have to perform activities that do not involve the attacker. Once an attacker has access to an online account, they can use that to:
   * Delete data, which can be communication data, documents and more.
   * Have access to contacts such as friends, family or colleagues.
   * Have access to communications, audio-video content, and any associated metadata.
