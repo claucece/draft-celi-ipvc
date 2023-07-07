@@ -95,6 +95,8 @@ The type of abuser that is close and familiar to the victim, "the attacker you k
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
+Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women [Witness], those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they does not necessarily have access to the victim's local network.
+
 # Definition of technology-based IPV
 
 Technology enables and enhances IPV attacks with pervasive surveillance, overt monitoring, and coercive access. IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. By "partner" we mean anyone with a close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. In cases of IPV there is an unequal power relationship that enables the attacker to cause harm. {{Dragiewicz2018}} calls this "digital coercive control" whereby Internet-enabled technology-- through access to local networks, devices and accounts-- becomes a mechanism to exert control, to conduct surveillance, or to aggravate and harass.
