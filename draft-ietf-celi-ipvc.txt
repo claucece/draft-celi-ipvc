@@ -1,0 +1,575 @@
+
+
+
+
+None                                                             S. Celi
+Internet-Draft                                                     Brave
+Intended status: Informational                                 J. Guerra
+Expires: 8 January 2024                               Derechos Digitales
+                                                               M. Knodel
+                                                                     CDT
+                                                             7 July 2023
+
+
+            Intimate Partner Violence Digital Considerations
+                      draft-ietf-celi-ipvc-latest
+
+Abstract
+
+   This document aims to inform how Internet protocols and their
+   implementations might better mitigate technical attacks at the user
+   endpoint by describing technology-based practices to perpetrate
+   intimate partner violence (IPV).  IPV is a pervasive reality that is
+   not limited to, but can be exacerbated with, the usage of technology.
+   The IPV context enables the attacker to access one, some or all of:
+   devices, local networks, authentication mechanisms, identity
+   information, and accounts.  These kinds of technical compromise exist
+   in addition to on-path attacks, both active and passive [RFC7624].
+   In this document we describe the tactics the IPV attacker uses and
+   what kind of counter-measures can be designed in IETF protocols.
+
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/claucece/draft-celi-ipvc.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 8 January 2024.
+
+Copyright Notice
+
+   Copyright (c) 2023 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Definition of technology-based IPV
+     2.1.  Terminology
+   3.  Technology-based IPV attacks
+     3.1.  The intimate attacker
+     3.2.  Tech-based IPV tactics
+     3.3.  Kinds of tech-enabled IPV attacks
+     3.4.  Means of attacking
+   4.  Specific abused technology
+   5.  Recommendations
+   6.  Resources
+   7.  Security Considerations
+   8.  IANA Considerations
+   9.  Informative References
+   Acknowledgments
+   Authors' Addresses
+
+1.  Introduction
+
+   Intimate partner violence (IPV) refers to physical, emotional,
+   verbal, sexual, or economic abuse of a person by a current or former
+   intimate partner.[WHO] It is understood that in IPV cases there is an
+   unequal power relationship that enables the abuser to cause harm in
+   romantic or sexual relationships, as well as child or elder abuse, or
+   abuse by any member of a household.
+
+   Digital technologies are central in modern lives and can be used as a
+   way to enable and enhance IPV.  Technology-based IPV has impact on
+   the physical, psychological and emotional health of survivors,
+   affecting them not only individually but their social environment
+   [ref].
+
+   There is significant existing work in the field of online gender
+   based violence [ref] and technology-based IPV [Freed] mainly focused
+   on response and resiliency, including digital privacy and safety
+   strategies.  At the same time, IPV is not considered enough when
+   designing digital technologies, networks, or Internet protocols
+   against threats.  Only in rare cases are protocol design or
+   cybersecurity best practices available tactics [ref].
+
+   The type of abuser that is close and familiar to the victim, "the
+   attacker you know", is neither on- nor off-path, they have complete
+   access to-- perhaps even share-- devices and local networks.  They
+   can even coerce their targets.
+
+   This document describes the tactics used in technology-based IPV.  It
+   provides recommendations for the design of protocols and
+   implementations to mitigate those tactics.  In what follows, we first
+   describe IPV and related terminology, the kind of tactics attackers
+   use, and we end with the recommendations.
+
+   Although the category of tech abuse includes practices such as Child
+   Sexual Abuse Material (CSAM), or digital manipulation of images and
+   videos (deepfakes) to exhibit and slander women [Witness], those
+   tactics are out of scope in this document, since the attacker is not
+   part of the victim's social environment, i.e. they does not
+   necessarily have access to the victim's local network.
+
+2.  Definition of technology-based IPV
+
+   Technology enables and enhances IPV attacks with pervasive
+   surveillance, overt monitoring, and coercive access.  IPV refers to
+   physical, emotional, verbal, sexual, or economic abuse of a person by
+   a current or former intimate partner.  By "partner" we mean anyone
+   with a close relationship with the victim that can exercise abuse in
+   a romantic or sexual relationship, as well as child or elder abuse,
+   or abuse by any member of a household.  In cases of IPV there is an
+   unequal power relationship that enables the attacker to cause harm.
+   [Dragiewicz2018] calls this "digital coercive control" whereby
+   Internet-enabled technology-- through access to local networks,
+   devices and accounts-- becomes a mechanism to exert control, to
+   conduct surveillance, or to aggravate and harass.
+
+2.1.  Terminology
+
+   In the rest of this draft, we will use this terminology:
+
+   *  Attacker: By "attacker" we mean a person, an abuser in an IPV
+      situation that is using digital tools to enable and enhance abuse.
+      An attacker can also be referred to as "perpetrator".
+
+   *  Victim: By "victim" we mean a person who is subject or target of
+      an attack.  Notice that we are using this term only in the
+      temporary context of an attack scenario.  We prefer the term
+      "survivor", which recognizes the agency and resistance tactics of
+      those facing IPV, but for the purposes of this document we focus
+      on the fact of being subject of specific technology-based IPV
+      attacks.
+
+3.  Technology-based IPV attacks
+
+   In order to describe IPV attacks that are enabled or exacerbated by
+   Internet technology, we first describe our assumptions about the
+   attacker and common tactics that can be used.  Then the types of
+   technology-enabled IPV attacks are described.
+
+3.1.  The intimate attacker
+
+   The attacker we present in this document is one that either has
+   forceful control of accounts, devices, and/or authentication
+   information for accessing systems, or uses public information to
+   exercise control.  This kind of attacker can be technologically savvy
+   or not.  We define this attacker as one of the strongest ones as it
+   can have unlimited access to systems and devices, whithout investing
+   a lot of financial resources.
+
+   The attacker has some kind of physical access to the victim (or has
+   had it in the past), and often shares a common social network with
+   them.  In some cases, it can be the legal owner of the devices/
+   accounts a victim uses.
+
+3.2.  Tech-based IPV tactics
+
+   There are many ways in which digital and networked technology can
+   facilitate an attacker perpetrating IPV.  Here we informally list
+   their main groups:
+
+   *  Ready-made tools: Attackers can use applications or devices that
+      are solely built to facilitate IPV.  These apps are sometimes
+      called "stalkerware" or "spouseware".
+
+   *  Dual-use tools: Attackers can use applications, control settings
+      or devices built for beneficial or innocuous purposes and
+      repurpose them for harm.  This is the case, for example, of anti-
+      theft devices that can be repurposed for stalking.
+
+   *  Impersonation attacks: Knowing personal information coupled with
+      access to authentication mechanisms gives an attacker the ability
+      to fully authenticate to services and accounts of the victim,
+      effectively impersonating them.  This can be executed to the
+      degree that the victim can no longer successfully authenticate
+      themselves.
+
+   *  UI-bound impersonation attacks: Attackers can abuse technology to
+      enhance IPV by abusing the UI of a specific tool.  In this case,
+      attackers become authenticated but adversarial users of a system.
+      They cannot, however, escalate to root privileges or access other
+      underlying functionalities of the system.  They are bound to
+      whatever system they managed to authenticate to.  We will explore
+      later the ways attackers use to forcibly gain authentication to a
+      system.
+
+   *  Social media and forums: Attackers can learn and share information
+      on how to use technology to enhance IPV through the usage of these
+      tools.  They can also receive narrative justification to condone
+      their behaviour.  They can also perform cyberstalking,
+      cyberbullying, doxxing with the usage of these tools.
+
+   *  Perception of threat: The mere presence of a pervasive threat is a
+      form of control.  The perception that technology can be used to
+      enhance IPV is a tactic of attackers to control victims, take away
+      agency and abuse them.  This can lead to lack of trust in
+      technology and further isolates the victim from seeking and
+      receiving support.
+
+3.3.  Kinds of tech-enabled IPV attacks
+
+   *  Monitoring: One of the most prevalent methods to enhance IPV is
+      the usage of active monitoring of any online account that the
+      victim has or of any action that the victim does in the digital
+      world.  This includes a variety of behaviors that feel unwelcomed
+      and intrusive, and can involve threats.  The monitoring is
+      "active" in that is a permanent action that the victim can be
+      aware of or not, and that the abuser might want to make them aware
+      or not.  It can include:
+
+      -  Monitoring e-mail, chat-based or social media communications,
+         or browsing history either directly on the victim's computer or
+         through specialised applications.
+
+      -  Monitoring location and whereabouts by looking at the metadata
+         of communication, by using location-help applications, or by
+         using specialized applications.
+
+      -  Monitoring any data sent over the network by mounting DNS
+         attacks or other specialised attacks.
+
+      -  Monitoring any information found on the UI by looking at
+         laptops screens, or other device's screens while the victim is
+         using them.
+
+      -  Using the Internet to seek public or private information to
+         compile a victim's personal information for use in harassment.
+
+      In this type of attack, we see these dimensions:
+
+      -  Monitoring of the content of communications either at the
+         application layer or other layers.
+
+      -  Monitoring of the UI content of application tools.
+
+      -  Monitoring of location information.
+
+   *  Compromise of accounts: An attacker may demand access to the
+      victim's accounts to continuously monitor, control or restrict
+      their online communications and activities.  In contrast to the
+      previous point, rather than using "publicly available" tools the
+      perpetrator demands access to tools and contents in order to
+      reduce the "life space" or "space for action" that the victim-
+      survivor may have to perform activities that do not involve the
+      attacker.  Once an attacker has access to an online account, they
+      can use that to:
+
+      -  Delete data, which can be communication data, documents and
+         more.
+
+      -  Have access to contacts such as friends, family or colleagues.
+
+      -  Have access to communications, audio-video content, and any
+         associated metadata.
+
+      -  Lock out or change the authentication mechanisms that grant
+         access to the account.
+
+      -  Impersonate by using the victim's online identity to send
+         false/forged messages to others or to purchase goods and
+         services.
+
+      -  Impersonate by using the victim's online identity to publicly
+         post information that can be private or fake.
+
+      -  Impersonate by using the victim's online or legal identity to
+         sign victims up for services.
+
+   *  Compromise of devices: This attack is similar to the above, but
+      the attacker demands access to the victim's devices.  The goal is
+      the same as the above but the result is more impactful as it
+      restricts access to accounts that are accessed through the device.
+      It can also prevent any connection to the Internet.  Once an
+      attacker has access to the device, they can use it to:
+
+      -  Phisically prevent the use of the device (the device can be
+         used, for example, to call police services, which is restricted
+         with this attack).
+
+      -  Access contacts and data (media or messages) stored in it.
+
+      -  Access to accounts and authentication mechanisms for other
+         accounts (saved passwords or authenticator apps -2-factor
+         authentication-, for example).
+
+      -  Perform impersonation.
+
+      -  Perform denial of access to the device, networks or the
+         Internet in general.
+
+      -  Destroy the device itself and any information stored in it.
+
+      -  Impersonate by using the victim's online identity as accessed
+         through the device. to publicly post information that can be
+         private or fake.
+
+   *  Exposing of private information or media: This attack builds on
+      top of other attacks.  Once an attacker has access to an account
+      or device, they can use this access to gather private information
+      or private media stored in it.  This can later be used for
+      threatening, extortion, doxing (posting private information), and
+      more.  It can also be used to gather information regarding bank
+      accounts, tax information and more.
+
+   *  Denial of access: This attack can be built on top of other
+      attacks.  It can consist of denying access to a device, but also
+      denying access to the Internet in general by destroying routers
+      (or network devices), changing Wi-Fi passwords or network
+      settings.  The goal is to disallow access to services, or contact
+      with family and friends.  It can also take the form of disrupting
+      digital communications by flooding a victim's communication tool
+      with unwanted messages or by sending a virus program.
+
+   *  Threats: This attack can be considered as a dimension of the
+      previous attack as it can result on a denial of access attack.  It
+      consists on sending e-mail, chat-based messages or social media
+      messages that threatens, insults, or harasses a victim.
+
+   *  Harrassing: Harrassment can be anonymous, but a victim often knows
+      from whom harrassment messages/actions come from; but, due to its
+      anonymity, it is unable to hold atackers accountable.  The systems
+      we have in place often need that harrassment content is
+      permanently available so that an investigation takes place.  This
+      enhances the abuse a victim is suffering.  This type of attack
+      appears in different dimensions:
+
+      -  On-going harassment with the goal of intimidation, humiliation
+         and monitoring.
+
+      -  Harrassment that appears after a victim has [disconnected] to
+         continue coercion.  When the abuser no longer has any physical
+         control over the victim they can start to stalk them.
+
+3.4.  Means of attacking
+
+   The above attacks can be carried out in different ways.  We list here
+   the most common ones:
+
+   *  Installation of spyware or spoofing: This form of attack consists
+      of installing unwanted tools into a device in order to gain access
+      to accounts or for active monitoring.  It can also take the form
+      of remote access by remotely "hacking" security questions,
+      passwords or any authentication mechanism.  Most of the time,
+      these tools are installed without the victim's knowledge.
+
+   *  Coercion and control: This form of attack consists of using
+      coercion and control (which can be physical, emotional or
+      psychological) to gain access to devices, network devices,
+      accounts or digital information.  It often takes the form of
+      forcing victims to reveal passwords or account/devices
+      authentication mechanisms.
+
+   *  Shared network plans between family/relationship members: Often
+      times, an attacker is the legal "owner" of a device (owning
+      children's devices, for example) or accounts (a bank account, for
+      example), or they have access to accounts/devices as they are part
+      of a shared family plan.  This enables an attacker to carry out
+      the previously mentioned attacks without the knowledge of the
+      victim and without the need for installation of tools.
+
+   *  Monitoring: This means of attack consists of the abuse of social
+      media and any public information found on digital tools from the
+      victim that has been shared through them.  It also involves
+      installing tools for active monitoring on devices or using
+      "benign" applications in a dual-use manner (applications, such as
+      the "track my phone" one).
+
+   *  Exposure: This means of attack consists of the abuse of social
+      media to enhance harassment.  It consists of using social media to
+      post harmful content to humiliate, to harass family or friends,
+      for doxxing or to non-consensually share intimate/private media.
+
+4.  Specific abused technology
+
+   In the research of the ways attackers use technology to enhance IPV,
+   we see this specific technology being abused:
+
+   *  Passwords and authentication mechanisms: all authentication
+      mechanisms can be used to enhance IPV as they are the single point
+      of failure used by attackers to get access to the account and/or
+      devices (and, once they have access to those, they can get further
+      access to other accounts or devices).  Attackers can use
+      specialised tools (to be installed in devices) to record
+      authentication mechanisms, they can coerce victims in order to get
+      access to devices, and more.  They can also mount these attacks
+      against fingerprints and biometric authentication mechanisms,
+      2-factor authentication devices/applications and more.
+
+   *  Media and private information: attackers can use the access to
+      accounts/devices to gain access to media and private information.
+      This media can later be used to bribe a victim, to humiliate them
+      (by publicly posting it), to enhance harassment and more.
+
+   *  Recovery of account mechanisms: as with authentication mechanisms,
+      attackers can use 2-factor authentication devices, accounts and/or
+      applications to get access to other accounts or profiles
+
+   *  Lack of blocking mechanisms and abuse of anonymous mechanisms:
+      Often times attackers carry out abuse by:
+
+      -  Contacting through fake numbers
+
+      -  Contacting through fake accounts
+
+      -  Sending messages to applications that have a "open" chanel for
+         receiving any message.
+
+      -  Abusing of read-recipes to enhance control.
+
+      -  Abusing the lack of blocking mechanisms.
+
+5.  Recommendations
+
+   We list here some recommendations to protocol designers to mitigate
+   technology-enabled IPV:
+
+   *  Build proper authentication systems: authentication mechanisms
+      should provide:
+
+      -  A non-deletable and non-modifiable list of who has access to
+         accounts/devices.
+
+      -  A way to recover access to an account and to change
+         authentication mechanisms.
+
+      -  Provide mechanisms to revoke access.
+
+      -  Send clear notifications when new devices are used to access an
+         account.
+
+   *  Storage and sharing of media: media should be stored/posted in
+      such a way that:
+
+      -  It can be taken down at the request of a victim if it consists
+         of private media posted without consent.
+
+      -  Provide good and private mechanisms for reporting the posting
+         of non-consented media.
+
+      -  Provide a way to destroy media once a device is in the hands of
+         an attacker.
+
+   *  Social media: social media can be a way for attackers to enhance
+      monitoring.  They should:
+
+      -  Provide proper blocking systems that are not limited to an
+         individual account.
+
+      -  Provide mechanisms by which only "accepted" people are able to
+         send messages to an account.
+
+   *  Browser history or searching information/metadata should be
+      deleted by default.
+
+   *  End-to-end encryption must be the default for any messaging in
+      order to prevent network monitoring.
+
+   *  Consider local attackers when designing sensitive applications.
+
+   *  Engineer plausible deniability for sensitive applications.
+
+   *  Build detection tools and improve logging and analytics for user
+      agents and devices with IPV in mind.
+
+   It is important to note that IPV should not be mistaken to be a
+   privacy issue alone.  Furthermore any tech-based solutions and
+   interventions that only address privacy can be used by attackers,
+   helping them to cloak their attacks from the victim and other means
+   of detection.  Power is imbalanced in IPV and technology entrenches
+   power.[Citron]
+
+6.  Resources
+
+   *  Cornell Tech's Clinic to End Tech Abuse
+      https://www.ceta.tech.cornell.edu/
+
+   *  List of domestic violence hotlines around the world
+      https://en.wikipedia.org/wiki/List_of_domestic_violence_hotlines
+
+   *  Procedures and tools for clinical computer security
+      https://www.usenix.org/conference/usenixsecurity19/presentation/
+      havron
+
+7.  Security Considerations
+
+8.  IANA Considerations
+
+   This document has no actions for IANA.
+
+9.  Informative References
+
+   [Citron]   Citron, D. K., "The Fight for Privacy: Protecting Dignity,
+              Identity, and Love in the Digital Age", 2023,
+              <https://wwnorton.com/books/9780393882315>.
+
+   [Dragiewicz2018]
+              Dragiewicz, M., Burgess, J., Matamoros-Fernández, A.,
+              Salter, M., Suzor, N. P., Woodlock, D., and B. Harris,
+              "Technology facilitated coercive control: domestic
+              violence and the competing roles of digital media
+              platforms", 6 September 2022,
+              <https://www.tandfonline.com/doi/
+              abs/10.1080/14680777.2018.1447341>.
+
+   [Freed]    Freed, D., Palmer, J., Minchala, D., Levy, K., Ristenpart,
+              T., and N. Dell, "Technologies and Intimate Partner
+              Violence: A Qualitative Analysis with Multiple
+              Stakeholders", 2017, <https://doi.org/10.1145/3134681>.
+
+   [NCAV]     Abuse, N. C. A. D. V., "National Statistics Domestic
+              Violence", 6 September 2022,
+              <https://ncadv.org/learn-more/statistics>.
+
+   [RFC7624]  Barnes, R., Schneier, B., Jennings, C., Hardie, T.,
+              Trammell, B., Huitema, C., and D. Borkmann,
+              "Confidentiality in the Face of Pervasive Surveillance: A
+              Threat Model and Problem Statement", RFC 7624,
+              DOI 10.17487/RFC7624, August 2015,
+              <https://www.rfc-editor.org/rfc/rfc7624>.
+
+   [WHO]      Organization, W. H., "Understanding and Addressing
+              Violence Against Women: Intimate Partner Violence", 2012,
+              <https://apps.who.int/iris/bitstream/handle/10665/77432/
+              WHO_RHR_12.36_eng.pdf>.
+
+Acknowledgments
+
+   Thanks to:
+
+   *  Lana Ramjit and Thomas Ristenpart for their insipiring work on
+      this area, and guidance for this draft.
+
+   *  Shivan Kaul and Pete Snyder for discussions, guidance and support.
+
+Authors' Addresses
+
+   Sofia Celi
+   Brave
+   Email: cherenkov@riseup.net
+
+
+   Juliana Guerra
+   Derechos Digitales
+   Email: juliana@derechosdigitales.org
+
+
+   Mallory Knodel
+   CDT
+   Email: mknodel@cdt.org

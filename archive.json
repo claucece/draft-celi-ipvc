@@ -1,0 +1,308 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-07-09T00:27:15.423011+00:00",
+  "repo": "claucece/draft-celi-ipvc",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDOHlma6c5gsyMy",
+      "title": "Privacy isn't enough",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/2",
+      "state": "OPEN",
+      "author": "mallory",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Danielle Citron has written about how a privacy-only approach to technology ends up benefiting those who are powerful and so in the introduction text we might elaborate why the privacy-first conceptual framework needs to shift in the case of IPV considerations.",
+      "createdAt": "2023-03-13T22:14:56Z",
+      "updatedAt": "2023-03-13T22:14:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 3,
+      "id": "I_kwDOHlma6c5j7yKH",
+      "title": "Notification systems",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/3",
+      "state": "OPEN",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "John Curran notes:\r\n\r\n\"\"\"\r\n    This is a most excellent document - thanks for all your work on it!\r\n\r\n    Regarding the Recommendation section, I note that the document doesn\u2019t include any mention of importance of the notification capabilities of authentication systems as a means for mitigation possible abuser use of technology. \r\n\r\n    As means of example, I\u2019d refer to the work of the National Network to End Domestic Violence (NNEDV) and Facebook in making clear possible mitigations to technology by abusers, and their publication \"A guide for Survivors of Abuse\u201d <https://nnedv.org/wp-content/uploads/2019/07/Library_TH_2018_Privacy_Safety_Facebook_Guide_Survivors_Abuse.pdf>, which calls out the usefulness of notifications in detecting misuse of technology by abusers - \r\n\r\n>     Login notifications\r\n>\r\n>     You can be notified, either by email or text message, if someone tries to access your account from a computer or device that you haven\u2019t used before.\r\n>\r\n>     Login approvals\r\n>\r\n>     If you are logging into your account from a different web browser or device, you must have a security code to access your account.\r\n>\r\n>     Recognized devices\r\n>\r\n>     You can manage the devices that are allowed to have access to your account and be notified if an unknown device tries to access your account. This is particularly helpful for a survivor who may have wanted to access their account from their partner\u2019s device, but now no longer wants that device to have access.\r\n>\r\n>     Active sessions\r\n>\r\n>     This is important to note because it shows sessions that are currently active or logged on. You may have active sessions if you\u2019ve accessed your account or are using an app and forgot to log off. This also will show if someone else might have accessed your account. In that case, you can choose to \u2018End Activity,\u2019 which will block that device from continuing to access your account.\r\n\r\n    This usefulness of such controls echoed in another recent paper \"A Domestic Violence Dystopia: Abuse via the Internet of Things and Remedies Under Current Law\u201d <https://californialawreview.org/print/a-domestic-violence-dystopia-abuse-via-the-internet-of-things-and-remedies-under-current-law/#clr-toc-heading-10>. which notes implications of technology design on those facing potential abuse \u2013 \"Safe design should also include automatic generation of weekly or monthly reports informing users about their data and account logins, a system notification that shows which registered user initiated the controls, and the standard of requiring that users opt into rather than out of data-sharing between members of a household. \u201c\r\n\r\n    I\u2019d encourage some further discussion on the list of the notification aspects of authentication systems and their potential use in mitigation of abuse via technology, and if found useful, inclusion of additional text in the authentication systems portion of the recommendations. ",
+      "createdAt": "2023-04-20T12:22:13Z",
+      "updatedAt": "2023-05-26T15:11:06Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "Seems good to add them to the recommendations section.",
+          "createdAt": "2023-05-26T15:11:06Z",
+          "updatedAt": "2023-05-26T15:11:06Z"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "I_kwDOHlma6c5j75Z-",
+      "title": "Gaslighting",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/4",
+      "state": "OPEN",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Leonie notes:\r\n\r\n```\r\nI wondered if it may also be helpful to emphasise \u201cgaslighting\u201d in the text explicitly (fits under \u201cperception of threat\u201d). I am\r\n saying this because both the over- and underestimation of a device\u2019s capabilities can be misused (we highlighted this in a\r\n recent report for the UK Government): https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/978692/The_UK_code_of_practice_for_consumer_IoT_security_-_PETRAS_UCL_research_report.pdf. \r\n```",
+      "createdAt": "2023-04-20T12:41:40Z",
+      "updatedAt": "2023-05-26T15:14:54Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "julianaguerra",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Maybe we should replace the category \"perception of threat\" by \"gaslighting\" as the tactic (or the threat) is not the perception itself but the intended manipulation and control (by the perpetrator) of the victim's perceptions of reality.\r\n\r\nThe document referenced by Leonie is focused on IoT devices but the main point on gaslighting, I think, is how it is \"effective when it is rooted in social inequalities, especially gender and sexuality, and executed in power-laden intimate relationships\" (Sweet, 2019).\r\n\r\nAnother option is adding the category of \"gaslighting\" separated from \"perception of threat\", with a wording similar to \r\n\r\nGaslighting: by taking control of smartphones or IoT devices, the attacker is able to manipulate the victim's perception of reality and making them feel they are insane. This power is rooted in inequalities and different digital gaps.",
+          "createdAt": "2023-05-12T12:53:25Z",
+          "updatedAt": "2023-05-12T12:53:25Z"
+        },
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "@julianaguerra yes! \r\n\r\nMight be good to:\r\n1. Expand the section on perception of threats. \r\n2. Add how it relates to gaslighting and define it. ",
+          "createdAt": "2023-05-26T15:14:54Z",
+          "updatedAt": "2023-05-26T15:14:54Z"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "I_kwDOHlma6c5j76Po",
+      "title": "Include considerations of IoT/Smart devices",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/5",
+      "state": "OPEN",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [
+        "mallory"
+      ],
+      "labels": [],
+      "body": "Leonie notes:\r\n\r\n```\r\nPerhaps you also would like to flag smart, Internet-connected\r\ndevices as they open up avenues for remote, physical control (we\r\nhave worked on this extensively here\r\n<https://www.emerald.com/insight/content/doi/10.1108/978-1-83982-848-520211049/full/html>, here <https://dl.acm.org/doi/10.1145/3368860.3368861>, and here <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3350615>, for example).\r\n```",
+      "createdAt": "2023-04-20T12:43:48Z",
+      "updatedAt": "2023-07-07T15:14:56Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "TODO: read the docs\r\n\r\nReach out to IoT-related WGs.",
+          "createdAt": "2023-05-26T15:18:50Z",
+          "updatedAt": "2023-05-26T15:18:50Z"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "I_kwDOHlma6c5j76sR",
+      "title": "Classify and characterise the attacker in terms of \"low/high\" tech knowledge",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/6",
+      "state": "OPEN",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Leonie notes:\r\n\r\n```\r\nThe low/high-tech dimensions of this abuse pattern could be made\r\nexplicit. This fits with the sentence that an \"attacker can be\r\ntechnologically savvy or not\" (we stress this in our work with UK\r\nsupport sector organisations here\r\n<https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3931045>);\r\n```",
+      "createdAt": "2023-04-20T12:45:00Z",
+      "updatedAt": "2023-05-26T15:20:34Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "Address more powerful attackers and link to the censorship draft.",
+          "createdAt": "2023-05-26T15:20:34Z",
+          "updatedAt": "2023-05-26T15:20:34Z"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "I_kwDOHlma6c5j7-Tr",
+      "title": "Considerations on \"hacker for hire\" treats ",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/7",
+      "state": "CLOSED",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Leonie mentions:\r\n\r\n```\r\nUnder \u201c3.2. Tech-based IPV tactics\u201d, you could feature \u201chacker for\r\nhire\u201d services (which we mention in Chapter 6 here\r\n<https://www.taylorfrancis.com/books/edit/10.4324/9780429316098/technology-domestic-family-violence-bridget-harris-delanie-woodlock>). Although, I must flag that the prevalence of this is not clear. I have only heard anecdotal evidence from frontline workers that said victims/survivors had stated that their partner had threatened them with this (which, if not correct, relates to [1] above).\r\n```",
+      "createdAt": "2023-04-20T12:54:05Z",
+      "updatedAt": "2023-05-26T15:23:47Z",
+      "closedAt": "2023-05-26T15:23:47Z",
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "This still falls under our definition of attacker. ",
+          "createdAt": "2023-05-26T15:23:46Z",
+          "updatedAt": "2023-05-26T15:23:46Z"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "I_kwDOHlma6c5j7--z",
+      "title": "Non-consensual sign into services",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/8",
+      "state": "CLOSED",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Leonie notes:\r\n\r\n```\r\nUnder \u201cCompromise of accounts\u201d, you may also want to underline the\r\nimpersonation to sign victims/survivors up for services (without\r\ntheir consent/awareness), including for porn sites or online banking\r\n(which then facilitates economic abuse).\r\n```",
+      "createdAt": "2023-04-20T12:55:44Z",
+      "updatedAt": "2023-05-26T15:24:43Z",
+      "closedAt": "2023-05-26T15:24:43Z",
+      "comments": [
+        {
+          "author": "julianaguerra",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Added a line to the document. In this case, maybe for this attack it's needed not only the online identity but also legal identity?\r\n",
+          "createdAt": "2023-05-12T13:06:07Z",
+          "updatedAt": "2023-05-12T13:06:07Z"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "I_kwDOHlma6c5j7_G4",
+      "title": "Deepfakes",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/9",
+      "state": "OPEN",
+      "author": "claucece",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Leonie notes:\r\n\r\n```\r\nLastly, Deepfakes may be something worth accenting in the text.\r\n```",
+      "createdAt": "2023-04-20T12:56:02Z",
+      "updatedAt": "2023-07-07T13:22:07Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "@julianaguerra will take a look at the literature. ",
+          "createdAt": "2023-05-26T15:28:32Z",
+          "updatedAt": "2023-05-26T15:28:32Z"
+        },
+        {
+          "author": "julianaguerra",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I reviewed Witness reports and there appears only one case of a woman politcian in India who was victim of a deepfake. They mention there are many cases of deepfakes being used to harass mainly women, and many experts consider this scenario will increase at the same time GAN tools are popularized. I think it's maybe not necesary to go in depth on this explanation, and just added a shot mention at the intro section of whoy we are not including CSAM and deepfakes. Maybe it's necesary to better write it.  ",
+          "createdAt": "2023-07-07T13:22:06Z",
+          "updatedAt": "2023-07-07T13:22:06Z"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "I_kwDOHlma6c5qFV0r",
+      "title": "OGBV",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/10",
+      "state": "OPEN",
+      "author": "mallory",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Quotable text from https://www.apc.org/sites/default/files/gender-cybersecurity-policy-litreview.pdf:\r\n\r\n\"Women and girls face specific cyber threats in the digital age that are considered forms of gender-based violence as they occur because of their gender, or because they disproportionately affect one gender. While this violence is mediated by digital technology, it is part of the same offline structural violence; but its technological dimension adds elements of search, persistence, replicability and scalability that facilitate the aggressors\u2019 access to their targets and can exacerbate the harm.\"",
+      "createdAt": "2023-06-28T21:13:49Z",
+      "updatedAt": "2023-06-28T21:13:49Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOHlma6c5JwZNp",
+      "title": "Add more recommendations for app developers",
+      "url": "https://github.com/claucece/draft-celi-ipvc/pull/1",
+      "state": "MERGED",
+      "author": "ShivanKaul",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I know this draft is still under progress, but a fantastic outcome for this draft IMO would be actionable guidance for developers. ",
+      "createdAt": "2023-02-10T23:53:51Z",
+      "updatedAt": "2023-02-20T15:23:23Z",
+      "baseRepository": "claucece/draft-celi-ipvc",
+      "baseRefName": "main",
+      "baseRefOid": "9d13186e3a65444491480e55ff1074a77f96d9af",
+      "headRepository": "claucece/draft-celi-ipvc",
+      "headRefName": "recommendations-for-developers",
+      "headRefOid": "b0211c4f0ce4a55cab2d816bde69b441d8f8b640",
+      "closedAt": "2023-02-20T15:23:23Z",
+      "mergedAt": "2023-02-20T15:23:23Z",
+      "mergedBy": "claucece",
+      "mergeCommit": {
+        "oid": "f4f4bc83d88109441b43b26d1440ff058bc69e49"
+      },
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "Thank you!!",
+          "createdAt": "2023-02-20T15:23:19Z",
+          "updatedAt": "2023-02-20T15:23:19Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}
