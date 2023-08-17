@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-09T00:27:15.423011+00:00",
+  "timestamp": "2023-08-17T00:16:54.231543+00:00",
   "repo": "claucece/draft-celi-ipvc",
   "labels": [
     {
@@ -263,6 +263,22 @@
       "body": "Quotable text from https://www.apc.org/sites/default/files/gender-cybersecurity-policy-litreview.pdf:\r\n\r\n\"Women and girls face specific cyber threats in the digital age that are considered forms of gender-based violence as they occur because of their gender, or because they disproportionately affect one gender. While this violence is mediated by digital technology, it is part of the same offline structural violence; but its technological dimension adds elements of search, persistence, replicability and scalability that facilitate the aggressors\u2019 access to their targets and can exacerbate the harm.\"",
       "createdAt": "2023-06-28T21:13:49Z",
       "updatedAt": "2023-06-28T21:13:49Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 11,
+      "id": "I_kwDOHlma6c5ugA0o",
+      "title": "ICRW citation",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/11",
+      "state": "OPEN",
+      "author": "mallory",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Useful citation: https://www.icrw.org/wp-content/uploads/2018/07/ICRW_TFGBVMarketing_Brief_v8-Web.pdf.\r\nMain points to:\r\n * integrate into the introduction on \"a spectrum of behaviors, including stalking, bullying, sexual harassment, defamation, hate speech and exploitation.\"\r\n * Introduction text answers the call to \"Technology companies can design or adapt solutions to mitigate the pervasiveness and impacts of technology-facilitated GBV among users;\" (there is also a call to researchers).\r\n * And in the abstract we might consider this work to be a rare opportunity for prevention of tech-assisted GBV.\r\n * Could also check lists of tactics and \"modes\".",
+      "createdAt": "2023-08-16T20:48:19Z",
+      "updatedAt": "2023-08-16T20:48:19Z",
       "closedAt": null,
       "comments": []
     }
