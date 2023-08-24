@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-08-17T00:16:54.231543+00:00",
+  "timestamp": "2023-08-24T00:17:09.082331+00:00",
   "repo": "claucece/draft-celi-ipvc",
   "labels": [
     {
@@ -253,7 +253,7 @@
     {
       "number": 10,
       "id": "I_kwDOHlma6c5qFV0r",
-      "title": "OGBV",
+      "title": "OGBV citation",
       "url": "https://github.com/claucece/draft-celi-ipvc/issues/10",
       "state": "OPEN",
       "author": "mallory",
@@ -262,7 +262,7 @@
       "labels": [],
       "body": "Quotable text from https://www.apc.org/sites/default/files/gender-cybersecurity-policy-litreview.pdf:\r\n\r\n\"Women and girls face specific cyber threats in the digital age that are considered forms of gender-based violence as they occur because of their gender, or because they disproportionately affect one gender. While this violence is mediated by digital technology, it is part of the same offline structural violence; but its technological dimension adds elements of search, persistence, replicability and scalability that facilitate the aggressors\u2019 access to their targets and can exacerbate the harm.\"",
       "createdAt": "2023-06-28T21:13:49Z",
-      "updatedAt": "2023-06-28T21:13:49Z",
+      "updatedAt": "2023-08-22T14:41:42Z",
       "closedAt": null,
       "comments": []
     },
@@ -279,6 +279,22 @@
       "body": "Useful citation: https://www.icrw.org/wp-content/uploads/2018/07/ICRW_TFGBVMarketing_Brief_v8-Web.pdf.\r\nMain points to:\r\n * integrate into the introduction on \"a spectrum of behaviors, including stalking, bullying, sexual harassment, defamation, hate speech and exploitation.\"\r\n * Introduction text answers the call to \"Technology companies can design or adapt solutions to mitigate the pervasiveness and impacts of technology-facilitated GBV among users;\" (there is also a call to researchers).\r\n * And in the abstract we might consider this work to be a rare opportunity for prevention of tech-assisted GBV.\r\n * Could also check lists of tactics and \"modes\".",
       "createdAt": "2023-08-16T20:48:19Z",
       "updatedAt": "2023-08-16T20:48:19Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 12,
+      "id": "I_kwDOHlma6c5u9lzm",
+      "title": "Tactics citations",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/12",
+      "state": "OPEN",
+      "author": "mallory",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "To cite or to cross check against our list:\r\n\r\nEmily Tseng, Rosanna Bellini, Nora McDonald, Matan Danos, Rachel Greenstadt, Damon McCoy, Nicola Dell, & Thomas Ristenpart (2020). The Tools and Tactics Used in Intimate Partner Surveillance: An Analysis of Online Infidelity Forums. CoRR, abs/2005.14341.\r\n\r\nR. Chatterjee et al., \"The Spyware Used in Intimate Partner Violence,\" 2018 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA, 2018, pp. 441-458, doi: 10.1109/SP.2018.00061.",
+      "createdAt": "2023-08-22T14:51:55Z",
+      "updatedAt": "2023-08-22T14:51:55Z",
       "closedAt": null,
       "comments": []
     }
