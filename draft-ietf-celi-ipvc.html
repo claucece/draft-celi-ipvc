@@ -11,18 +11,18 @@
 <meta content="
        This document aims to inform how Internet protocols and their implementations might better mitigate technical attacks at the user endpoint by describing technology-based practices to perpetrate intimate partner violence (IPV). IPV is a pervasive reality that is not limited to, but can be exacerbated with, the usage of technology. The IPV context enables the attacker to access one, some or all of: devices, local networks, authentication mechanisms, identity information, and accounts. These kinds of technical compromise exist in addition to on-path attacks, both active and passive  . In this document we describe the tactics the IPV attacker uses and what kind of counter-measures can be designed in IETF protocols. 
     " name="description">
-<meta content="xml2rfc 3.17.4" name="generator">
+<meta content="xml2rfc 3.18.0" name="generator">
 <meta content="Internet-Draft" name="keyword">
 <meta content="draft-ietf-celi-ipvc-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.17.4
+  xml2rfc 3.18.0
     Python 3.11.4
     ConfigArgParse 1.5.3
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.2
-    lxml 4.9.2
-    platformdirs 3.8.0
+    lxml 4.9.3
+    platformdirs 3.10.0
     pycountry 22.3.5
     PyYAML 6.0
     requests 2.31.0
@@ -1049,11 +1049,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">ipvc</td>
-<td class="right">July 2023</td>
+<td class="right">September 2023</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Celi, et al.</td>
-<td class="center">Expires 8 January 2024</td>
+<td class="center">Expires 4 March 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1066,12 +1066,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-ietf-celi-ipvc-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2023-07-07" class="published">7 July 2023</time>
+<time datetime="2023-09-01" class="published">1 September 2023</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-01-08">8 January 2024</time></dd>
+<dd class="expires"><time datetime="2024-03-04">4 March 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1121,7 +1121,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 8 January 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 4 March 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1211,12 +1211,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner.<span>[<a href="#WHO" class="cite xref">WHO</a>]</span> It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-1">Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner (henceforth, refered to as the attacker or abuser).<span>[<a href="#WHO" class="cite xref">WHO</a>]</span> It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.<a href="#section-1-1" class="pilcrow">¶</a></p>
 <p id="section-1-2">Digital technologies are central in modern lives and can be used as a way to enable and enhance IPV. Technology-based IPV has impact on the physical, psychological and emotional health of survivors, affecting them not only individually but their social environment [ref].<a href="#section-1-2" class="pilcrow">¶</a></p>
-<p id="section-1-3">There is significant existing work in the field of online gender based violence [ref] and technology-based IPV <span>[<a href="#Freed" class="cite xref">Freed</a>]</span> mainly focused on response and resiliency, including digital privacy and safety strategies. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices available tactics [ref].<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-3">There is significant existing work in the field of online gender based violence <span>[<a href="#IPVTechBib" class="cite xref">IPVTechBib</a>]</span><span>[<a href="#CSP" class="cite xref">CSP</a>]</span> and technology-based IPV <span>[<a href="#Freed" class="cite xref">Freed</a>]</span> mainly focused on response and resiliency, including digital privacy and safety strategies. Nevertheless, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices/tactics available <span>[<a href="#CETAStrategies" class="cite xref">CETAStrategies</a>]</span>.<a href="#section-1-3" class="pilcrow">¶</a></p>
 <p id="section-1-4">The type of abuser that is close and familiar to the victim, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.<a href="#section-1-4" class="pilcrow">¶</a></p>
 <p id="section-1-5">This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.<a href="#section-1-5" class="pilcrow">¶</a></p>
-<p id="section-1-6">Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women [Witness], those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they does not necessarily have access to the victim's local network.<a href="#section-1-6" class="pilcrow">¶</a></p>
+<p id="section-1-6">Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women [Witness], those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they do not necessarily have access to the victim's local network.<a href="#section-1-6" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="definition-of-technology-based-ipv">
@@ -1316,7 +1316,7 @@ aware of or not, and that the abuser might want to make them aware or not. It ca
 include:<a href="#section-3.3-1.1.1" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-3.3-1.1.2.1">Monitoring e-mail, chat-based or social media communications, or browsing history
-either directly on the victim's computer or through specialised applications.<a href="#section-3.3-1.1.2.1" class="pilcrow">¶</a>
+either directly on the victim’s computer or through specialised applications.<a href="#section-3.3-1.1.2.1" class="pilcrow">¶</a>
 </li>
               <li class="normal" id="section-3.3-1.1.2.2">Monitoring location and whereabouts by looking at the metadata of communication,
 by using location-help applications, or by using specialized applications.<a href="#section-3.3-1.1.2.2" class="pilcrow">¶</a>
@@ -1605,9 +1605,17 @@ to an account.<a href="#section-5-2.3.2.2" class="pilcrow">¶</a>
 <a href="#section-9" class="section-number selfRef">9. </a><a href="#name-informative-references" class="section-name selfRef">Informative References</a>
       </h2>
 <dl class="references">
+<dt id="CETAStrategies">[CETAStrategies]</dt>
+      <dd>
+<span class="refAuthor">Abuse, C. to E. T.</span>, <span class="refTitle">"Resources from the Clinic to End Tech Abuse"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.ceta.tech.cornell.edu/resources">https://www.ceta.tech.cornell.edu/resources</a>&gt;</span>. </dd>
+<dd class="break"></dd>
 <dt id="Citron">[Citron]</dt>
       <dd>
 <span class="refAuthor">Citron, D. K.</span>, <span class="refTitle">"The Fight for Privacy: Protecting Dignity, Identity, and Love in the Digital Age"</span>, <time datetime="2023" class="refDate">2023</time>, <span>&lt;<a href="https://wwnorton.com/books/9780393882315">https://wwnorton.com/books/9780393882315</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="CSP">[CSP]</dt>
+      <dd>
+<span class="refAuthor">Abuse, C. to E. T.</span>, <span class="refTitle">"Computer Security and Privacy for Survivors of Intimate Partner Violence"</span>, <span>n.d.</span>, <span>&lt;<a href="https://www.ipvtechresearch.org">https://www.ipvtechresearch.org</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="Dragiewicz2018">[Dragiewicz2018]</dt>
       <dd>
@@ -1616,6 +1624,10 @@ to an account.<a href="#section-5-2.3.2.2" class="pilcrow">¶</a>
 <dt id="Freed">[Freed]</dt>
       <dd>
 <span class="refAuthor">Freed, D.</span>, <span class="refAuthor">Palmer, J.</span>, <span class="refAuthor">Minchala, D.</span>, <span class="refAuthor">Levy, K.</span>, <span class="refAuthor">Ristenpart, T.</span>, and <span class="refAuthor">N. Dell</span>, <span class="refTitle">"Technologies and Intimate Partner Violence: A Qualitative Analysis with Multiple Stakeholders"</span>, <time datetime="2017" class="refDate">2017</time>, <span>&lt;<a href="https://doi.org/10.1145/3134681">https://doi.org/10.1145/3134681</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="IPVTechBib">[IPVTechBib]</dt>
+      <dd>
+<span class="refAuthor">Maynier, E.</span>, <span class="refTitle">"Selected Research Papers on Technology used in Intimate Partner Violence"</span>, <span>n.d.</span>, <span>&lt;<a href="https://ipvtechbib.randhome.io/">https://ipvtechbib.randhome.io/</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="NCAV">[NCAV]</dt>
       <dd>

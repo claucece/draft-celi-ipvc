@@ -5,10 +5,10 @@
 None                                                             S. Celi
 Internet-Draft                                                     Brave
 Intended status: Informational                                 J. Guerra
-Expires: 8 January 2024                               Derechos Digitales
+Expires: 4 March 2024                                 Derechos Digitales
                                                                M. Knodel
                                                                      CDT
-                                                             7 July 2023
+                                                        1 September 2023
 
 
             Intimate Partner Violence Digital Considerations
@@ -50,7 +50,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 January 2024.
+   This Internet-Draft will expire on 4 March 2024.
 
 Copyright Notice
 
@@ -89,10 +89,11 @@ Table of Contents
 
    Intimate partner violence (IPV) refers to physical, emotional,
    verbal, sexual, or economic abuse of a person by a current or former
-   intimate partner.[WHO] It is understood that in IPV cases there is an
-   unequal power relationship that enables the abuser to cause harm in
-   romantic or sexual relationships, as well as child or elder abuse, or
-   abuse by any member of a household.
+   intimate partner (henceforth, refered to as the attacker or
+   abuser).[WHO] It is understood that in IPV cases there is an unequal
+   power relationship that enables the abuser to cause harm in romantic
+   or sexual relationships, as well as child or elder abuse, or abuse by
+   any member of a household.
 
    Digital technologies are central in modern lives and can be used as a
    way to enable and enhance IPV.  Technology-based IPV has impact on
@@ -101,12 +102,12 @@ Table of Contents
    [ref].
 
    There is significant existing work in the field of online gender
-   based violence [ref] and technology-based IPV [Freed] mainly focused
-   on response and resiliency, including digital privacy and safety
-   strategies.  At the same time, IPV is not considered enough when
-   designing digital technologies, networks, or Internet protocols
+   based violence [IPVTechBib][CSP] and technology-based IPV [Freed]
+   mainly focused on response and resiliency, including digital privacy
+   and safety strategies.  Nevertheless, IPV is not considered enough
+   when designing digital technologies, networks, or Internet protocols
    against threats.  Only in rare cases are protocol design or
-   cybersecurity best practices available tactics [ref].
+   cybersecurity best practices/tactics available [CETAStrategies].
 
    The type of abuser that is close and familiar to the victim, "the
    attacker you know", is neither on- nor off-path, they have complete
@@ -123,8 +124,8 @@ Table of Contents
    Sexual Abuse Material (CSAM), or digital manipulation of images and
    videos (deepfakes) to exhibit and slander women [Witness], those
    tactics are out of scope in this document, since the attacker is not
-   part of the victim's social environment, i.e. they does not
-   necessarily have access to the victim's local network.
+   part of the victim's social environment, i.e. they do not necessarily
+   have access to the victim's local network.
 
 2.  Definition of technology-based IPV
 
@@ -235,7 +236,7 @@ Table of Contents
       or not.  It can include:
 
       -  Monitoring e-mail, chat-based or social media communications,
-         or browsing history either directly on the victim's computer or
+         or browsing history either directly on the victim’s computer or
          through specialised applications.
 
       -  Monitoring location and whereabouts by looking at the metadata
@@ -515,9 +516,18 @@ Table of Contents
 
 9.  Informative References
 
+   [CETAStrategies]
+              Abuse, C. to E. T., "Resources from the Clinic to End Tech
+              Abuse", n.d.,
+              <https://www.ceta.tech.cornell.edu/resources>.
+
    [Citron]   Citron, D. K., "The Fight for Privacy: Protecting Dignity,
               Identity, and Love in the Digital Age", 2023,
               <https://wwnorton.com/books/9780393882315>.
+
+   [CSP]      Abuse, C. to E. T., "Computer Security and Privacy for
+              Survivors of Intimate Partner Violence", n.d.,
+              <https://www.ipvtechresearch.org>.
 
    [Dragiewicz2018]
               Dragiewicz, M., Burgess, J., Matamoros-Fernández, A.,
@@ -532,6 +542,11 @@ Table of Contents
               T., and N. Dell, "Technologies and Intimate Partner
               Violence: A Qualitative Analysis with Multiple
               Stakeholders", 2017, <https://doi.org/10.1145/3134681>.
+
+   [IPVTechBib]
+              Maynier, E., "Selected Research Papers on Technology used
+              in Intimate Partner Violence", n.d.,
+              <https://ipvtechbib.randhome.io/>.
 
    [NCAV]     Abuse, N. C. A. D. V., "National Statistics Domestic
               Violence", 6 September 2022,
