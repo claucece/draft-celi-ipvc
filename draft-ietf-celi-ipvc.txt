@@ -5,7 +5,7 @@
 None                                                             S. Celi
 Internet-Draft                                                     Brave
 Intended status: Informational                                 J. Guerra
-Expires: 4 March 2024                                 Derechos Digitales
+Expires: 4 March 2024                                                   
                                                                M. Knodel
                                                                      CDT
                                                         1 September 2023
@@ -630,8 +630,7 @@ Authors' Addresses
 
 
    Juliana Guerra
-   Derechos Digitales
-   Email: juliana@derechosdigitales.org
+   Email: juliana@usuarix.net
 
 
    Mallory Knodel
