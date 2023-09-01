@@ -22,8 +22,7 @@ author:
  -
     ins: J. Guerra
     name: Juliana Guerra
-    organization: Derechos Digitales
-    email: juliana@derechosdigitales.org
+    email: juliana@usuarix.net
  -
     ins: M. Knodel
     name: Mallory Knodel
