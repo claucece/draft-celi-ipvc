@@ -122,7 +122,7 @@ informative:
     target: https://www.apc.org/sites/default/files/gender-cybersecurity-policy-litreview.pdf
     title: "A framework for developing gender-reponsive cybersecurity policy"
     author:
-      - Association for Progressive Communication (APC)
+      - Association for Progressive Communication
   Witness:
     target: https://journals.sagepub.com/doi/10.1177/14648849211060644
     title: "Deepfakes, misinformation and disinformation and authenticity infrastructure responses: Impacts on frontline witnessing, distant witnessing, and civic journalism"
