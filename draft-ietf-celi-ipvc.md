@@ -114,7 +114,7 @@ Although the category of tech abuse includes practices such as Child Sexual Abus
 
 # Definition of technology-based IPV
 
-Technology enables and enhances IPV attacks with pervasive surveillance, overt monitoring, and coercive access. IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. By "partner" we mean anyone with a close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. In cases of IPV there is an unequal power relationship that enables the attacker to cause harm. {{Dragiewicz2018}} calls this "digital coercive control" whereby Internet-enabled technology-- through access to local networks, devices and accounts-- becomes a mechanism to exert control, to conduct surveillance, or to aggravate and harass.
+Technology enables and enhances IPV attacks with pervasive surveillance, overt monitoring, and coercive access. IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. By "partner" we mean anyone with a close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. In cases of IPV, there is an unequal power relationship that enables the attacker to cause harm. {{Dragiewicz2018}} calls this "digital coercive control" whereby Internet-enabled technology-- through access to local networks, devices and accounts-- becomes a mechanism to exert control, to conduct surveillance, or to aggravate and harass.
 
 ## Terminology
 
@@ -127,7 +127,7 @@ In the rest of this draft, we will use this terminology:
 
 # Technology-based IPV attacks
 
-In order to describe IPV attacks that are enabled or exacerbated by Internet technology, we first describe our assumptions about the attacker and common tactics that can be used. Then the types of technology-enabled IPV attacks are described.
+In order to describe IPV attacks that are enabled or exacerbated by Internet technology, we first describe our assumptions about the attacker and common tactics that can be used. Then, the types of technology-enabled IPV attacks are described.
 
 ## The intimate attacker
 
@@ -136,7 +136,7 @@ accounts, devices, and/or authentication information for accessing systems, or u
 public information to exercise control.
 This kind of attacker can be technologically savvy or not. We define this
 attacker as one of the strongest ones as it can have unlimited access to
-systems and devices, whithout investing a lot of financial resources.
+systems and devices, whithout investing a lot of financial or computational resources.
 
 The attacker has some kind of physical access to the victim (or has had it in the past),
 and often shares a common social network with them. In some cases, it can be
@@ -164,7 +164,7 @@ There are many ways in which digital and networked technology can facilitate an 
   perform cyberstalking, cyberbullying, doxxing with the usage of these tools.
 * Perception of threat: The mere presence of a pervasive threat is a form of control. The perception that technology can be used to enhance IPV
   is a tactic of attackers to control victims, take away agency and abuse them. This can lead
-  to lack of trust in technology and further isolates the victim from seeking and receiving support.
+  to lack of trust in technology, and further isolates the victim from seeking and receiving support.
 
 ## Kinds of tech-enabled IPV attacks
 
@@ -175,14 +175,15 @@ There are many ways in which digital and networked technology can facilitate an 
   The monitoring is "active" in that is a permanent action that the victim can be
   aware of or not, and that the abuser might want to make them aware or not. It can
   include:
-  * Monitoring e-mail, chat-based or social media communications, or browsing history
-    either directly on the victim’s computer or through specialised applications.
+  * Monitoring e-mail, chat-based or social media communications, or browsing information
+    (history, cookies or more) either directly on the victim's device or through
+    specialised applications.
   * Monitoring location and whereabouts by looking at the metadata of communication,
     by using location-help applications, or by using specialized applications.
   * Monitoring any data sent over the network by mounting DNS attacks or other specialised
     attacks.
-  * Monitoring any information found on the UI by looking at laptops screens, or other
-    device's screens while the victim is using them.
+  * Monitoring any information found on the UI by looking at devices screens while the
+    victim is using them.
   * Using the Internet to seek public or private information to compile a
     victim's personal information for use in harassment.
 
@@ -194,7 +195,8 @@ There are many ways in which digital and networked technology can facilitate an 
   * Monitoring of location information.
 
 * Compromise of accounts: An attacker may demand access to the victim's accounts to continuously monitor, control or restrict their online communications and activities. In contrast to the previous point, rather than using "publicly available" tools the perpetrator demands access to tools and contents in order to reduce the "life space" or "space for action" that the victim-survivor may have to perform activities that do not involve the attacker. Once an attacker has access to an online account, they can use that to:
-  * Delete data, which can be communication data, documents and more.
+  * Delete data, which can be communication data, documents and more (any information s
+    stored in the device).
   * Have access to contacts such as friends, family or colleagues.
   * Have access to communications, audio-video content, and any associated metadata.
   * Lock out or change the authentication mechanisms that grant access to the account.
@@ -217,7 +219,7 @@ There are many ways in which digital and networked technology can facilitate an 
   * Perform impersonation.
   * Perform denial of access to the device, networks or the Internet in general.
   * Destroy the device itself and any information stored in it.
-  * Impersonate by using the victim's online identity as accessed through the device.
+  * Impersonate by using the victim's online identity, as accessed through the device,
     to publicly post information that can be private or fake.
 
 * Exposing of private information or media: This attack builds on top of other attacks.
