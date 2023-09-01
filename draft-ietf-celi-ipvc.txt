@@ -445,15 +445,25 @@ Table of Contents
       should provide:
 
       -  A non-deletable and non-modifiable list of who has access to
-         accounts/devices.
+         accounts/devices: a list of recognised devices and a list of
+         active sessions.
 
       -  A way to recover access to an account and to change
          authentication mechanisms.
 
       -  Provide mechanisms to revoke access.
 
-      -  Send clear notifications when new devices are used to access an
-         account.
+      -  Send clear notifications for:
+
+         o  when new devices are used to access an account,
+
+         o  when there is attempt to access an account,
+
+         o  when any change has been made to an account.
+
+      -  Provide mechanisms to approve access attempts to accounts
+         (when, for example, a new device is trying to access an
+         account).
 
    *  Storage and sharing of media: media should be stored/posted in
       such a way that:
