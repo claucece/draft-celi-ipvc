@@ -123,6 +123,12 @@ informative:
     title: "A framework for developing gender-reponsive cybersecurity policy"
     author:
       - Association for Progressive Communication (APC)
+  Witness:
+    target: https://journals.sagepub.com/doi/10.1177/14648849211060644
+    title: "Deepfakes, misinformation and disinformation and authenticity infrastructure responses: Impacts on frontline witnessing, distant witnessing, and civic journalism"
+    author:
+      - Sam Gregory
+
 
 --- abstract
 
@@ -142,7 +148,7 @@ The type of abuser that is close and familiar to the victim, "the attacker you k
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
-Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women [Witness], those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they do not necessarily have access to the victim's local network.
+Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women {{Witness}}, those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they do not necessarily have access to the victim's local network.
 
 # Definition of technology-based IPV
 
