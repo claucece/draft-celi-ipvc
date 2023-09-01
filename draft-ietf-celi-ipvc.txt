@@ -183,8 +183,9 @@ Table of Contents
 3.2.  Tech-based IPV tactics
 
    There are many ways in which digital and networked technology can
-   facilitate an attacker perpetrating IPV.  Here we informally list
-   their main groups:
+   facilitate an attacker perpetrating IPV.  For an in-depth reading,
+   see [TBMDGMMDR] and [CDOHPFLDMR].  Here we informally list their main
+   groups:
 
    *  Ready-made tools: Attackers can use applications or devices that
       are solely built to facilitate IPV.  These apps are sometimes
@@ -526,6 +527,13 @@ Table of Contents
 
 9.  Informative References
 
+   [CDOHPFLDMR]
+              Chatterjee, R., Doerfler, P., Orgad, H., Havron, S.,
+              Palmer, J., Freed, D., Levy, K., Dell, N., McCoy, D.,
+              Ristenpart, T., and E. Tseng, "The Spyware Used in
+              Intimate Partner Violence", n.d.,
+              <https://ieeexplore.ieee.org/document/8418618>.
+
    [CETAStrategies]
               Abuse, C. to E. T., "Resources from the Clinic to End Tech
               Abuse", n.d.,
@@ -568,6 +576,13 @@ Table of Contents
               Threat Model and Problem Statement", RFC 7624,
               DOI 10.17487/RFC7624, August 2015,
               <https://www.rfc-editor.org/rfc/rfc7624>.
+
+   [TBMDGMMDR]
+              Tseng, E., Bellini, R., McDonald, N., Danos, M.,
+              Greenstadt, R., McCoy, D., Dell, N., and T. Ristenpart,
+              "The Tools and Tactics Used in Intimate Partner
+              Surveillance: An Analysis of Online Infidelity Forums",
+              n.d., <https://arxiv.org/abs/2005.14341>.
 
    [WHO]      Organization, W. H., "Understanding and Addressing
               Violence Against Women: Intimate Partner Violence", 2012,
