@@ -91,6 +91,33 @@ informative:
     title: "Resources from the Clinic to End Tech Abuse"
     author:
       - name: Clinic to End Tech Abuse
+  TBMDGMMDR:
+    target: https://arxiv.org/abs/2005.14341
+    title: "The Tools and Tactics Used in Intimate Partner Surveillance: An Analysis of Online Infidelity Forums"
+    author:
+      - name: Emily Tseng
+      - name: Rosanna Bellini
+      - name: Nora McDonald
+      - name: Matan Danos
+      - name: Rachel Greenstadt
+      - name: Damon McCoy
+      - name: Nicola Dell
+      - name: Thomas Ristenpart
+  CDOHPFLDMR:
+    target: https://ieeexplore.ieee.org/document/8418618
+    title: "The Spyware Used in Intimate Partner Violence"
+    author:
+      - name: Rahul Chatterjee
+      - name: Periwinkle Doerfler
+      - name: Hadas Orgad
+      - name: Sam Havron
+      - name: Jackeline Palmer
+      - name: Diana Freed
+      - name: Karen Levy
+      - name: Nicola Dell
+      - name: Damon McCoy
+      - name: Thomas Ristenpart
+      - name: Emily Tseng
 
 --- abstract
 
@@ -144,7 +171,9 @@ the legal owner of the devices/accounts a victim uses.
 
 ## Tech-based IPV tactics
 
-There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV. Here we informally list their main groups:
+There are many ways in which digital and networked technology can facilitate an attacker perpetrating IPV.
+For an in-depth reading, see {{TBMDGMMDR}} and {{CDOHPFLDMR}}.
+Here we informally list their main groups:
 
 * Ready-made tools: Attackers can use applications or devices
   that are solely built to facilitate IPV. These apps are sometimes called "stalkerware" or "spouseware".
