@@ -76,6 +76,21 @@ informative:
     author:
       - name: Danielle Keats Citron
     date: 2023
+  IPVTechBib:
+    target: https://ipvtechbib.randhome.io/
+    title: "Selected Research Papers on Technology used in Intimate Partner Violence"
+    author:
+      - name: Etienne Maynier
+  CSP:
+    target: https://www.ipvtechresearch.org
+    title: "Computer Security and Privacy for Survivors of Intimate Partner Violence"
+    author:
+      - name: Clinic to End Tech Abuse
+  CETAStrategies:
+    target: https://www.ceta.tech.cornell.edu/resources
+    title: "Resources from the Clinic to End Tech Abuse"
+    author:
+      - name: Clinic to End Tech Abuse
 
 --- abstract
 
@@ -85,17 +100,17 @@ This document aims to inform how Internet protocols and their implementations mi
 
 # Introduction
 
-Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner.{{WHO}} It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
+Intimate partner violence (IPV) refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner (henceforth, refered to as the attacker or abuser).{{WHO}} It is understood that in IPV cases there is an unequal power relationship that enables the abuser to cause harm in romantic or sexual relationships, as well as child or elder abuse, or abuse by any member of a household.
 
 Digital technologies are central in modern lives and can be used as a way to enable and enhance IPV. Technology-based IPV has impact on the physical, psychological and emotional health of survivors, affecting them not only individually but their social environment [ref].
 
-There is significant existing work in the field of online gender based violence [ref] and technology-based IPV {{Freed}} mainly focused on response and resiliency, including digital privacy and safety strategies. At the same time, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices available tactics [ref].
+There is significant existing work in the field of online gender based violence {{IPVTechBib}}{{CSP}} and technology-based IPV {{Freed}} mainly focused on response and resiliency, including digital privacy and safety strategies. Nevertheless, IPV is not considered enough when designing digital technologies, networks, or Internet protocols against threats. Only in rare cases are protocol design or cybersecurity best practices/tactics available {{CETAStrategies}}.
 
 The type of abuser that is close and familiar to the victim, "the attacker you know", is neither on- nor off-path, they have complete access to-- perhaps even share-- devices and local networks. They can even coerce their targets.
 
 This document describes the tactics used in technology-based IPV. It provides recommendations for the design of protocols and implementations to mitigate those tactics. In what follows, we first describe IPV and related terminology, the kind of tactics attackers use, and we end with the recommendations.
 
-Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women [Witness], those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they does not necessarily have access to the victim's local network.
+Although the category of tech abuse includes practices such as Child Sexual Abuse Material (CSAM), or digital manipulation of images and videos (deepfakes) to exhibit and slander women [Witness], those tactics are out of scope in this document, since the attacker is not part of the victim's social environment, i.e. they do not necessarily have access to the victim's local network.
 
 # Definition of technology-based IPV
 
