@@ -118,6 +118,11 @@ informative:
       - name: Damon McCoy
       - name: Thomas Ristenpart
       - name: Emily Tseng
+  APCFramework:
+    target: https://www.apc.org/sites/default/files/gender-cybersecurity-policy-litreview.pdf
+    title: "A framework for developing gender-reponsive cybersecurity policy"
+    author:
+      - Association for Progressive Communication (APC)
 
 --- abstract
 
@@ -142,6 +147,8 @@ Although the category of tech abuse includes practices such as Child Sexual Abus
 # Definition of technology-based IPV
 
 Technology enables and enhances IPV attacks with pervasive surveillance, overt monitoring, and coercive access. IPV refers to physical, emotional, verbal, sexual, or economic abuse of a person by a current or former intimate partner. By "partner" we mean anyone with a close relationship with the victim that can exercise abuse in a romantic or sexual relationship, as well as child or elder abuse, or abuse by any member of a household. In cases of IPV, there is an unequal power relationship that enables the attacker to cause harm. {{Dragiewicz2018}} calls this "digital coercive control" whereby Internet-enabled technology-- through access to local networks, devices and accounts-- becomes a mechanism to exert control, to conduct surveillance, or to aggravate and harass.
+
+Note that while this kind of abuse of technology is excerted to any person (regarless of their gender or sexuality), there is an interesection with gender violence. As noted by {{APCFramework}}, "women and girls face specific cyber threats in the digital age that are considered forms of gender-based violence as they occur because of their gender, or because they disproportionately affect one gender. While this violence is mediated by digital technology, it is part of the same offline structural violence; but its technological dimension adds elements of search, persistence, replicability and scalability that facilitate the aggressors’ access to their targets and can exacerbate the harm."
 
 ## Terminology
 
