@@ -142,6 +142,18 @@ Table of Contents
    devices and accounts-- becomes a mechanism to exert control, to
    conduct surveillance, or to aggravate and harass.
 
+   Note that while this kind of abuse of technology is excerted to any
+   person (regarless of their gender or sexuality), there is an
+   interesection with gender violence.  As noted by [APCFramework],
+   "women and girls face specific cyber threats in the digital age that
+   are considered forms of gender-based violence as they occur because
+   of their gender, or because they disproportionately affect one
+   gender.  While this violence is mediated by digital technology, it is
+   part of the same offline structural violence; but its technological
+   dimension adds elements of search, persistence, replicability and
+   scalability that facilitate the aggressors’ access to their targets
+   and can exacerbate the harm."
+
 2.1.  Terminology
 
    In the rest of this draft, we will use this terminology:
@@ -527,6 +539,12 @@ Table of Contents
 
 9.  Informative References
 
+   [APCFramework]
+              Communication, A. for P., "A framework for developing
+              gender-reponsive cybersecurity policy", n.d.,
+              <https://www.apc.org/sites/default/files/gender-
+              cybersecurity-policy-litreview.pdf>.
+
    [CDOHPFLDMR]
               Chatterjee, R., Doerfler, P., Orgad, H., Havron, S.,
               Palmer, J., Freed, D., Levy, K., Dell, N., McCoy, D.,
@@ -588,6 +606,12 @@ Table of Contents
               Violence Against Women: Intimate Partner Violence", 2012,
               <https://apps.who.int/iris/bitstream/handle/10665/77432/
               WHO_RHR_12.36_eng.pdf>.
+
+   [Witness]  Gregory, S., "Deepfakes, misinformation and disinformation
+              and authenticity infrastructure responses: Impacts on
+              frontline witnessing, distant witnessing, and civic
+              journalism", n.d., <https://journals.sagepub.com/
+              doi/10.1177/14648849211060644>.
 
 Acknowledgments
 
