@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-08-24T00:17:09.082331+00:00",
+  "timestamp": "2023-09-03T00:19:01.872953+00:00",
   "repo": "claucece/draft-celi-ipvc",
   "labels": [
     {
@@ -71,15 +71,15 @@
       "id": "I_kwDOHlma6c5j7yKH",
       "title": "Notification systems",
       "url": "https://github.com/claucece/draft-celi-ipvc/issues/3",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "claucece",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "John Curran notes:\r\n\r\n\"\"\"\r\n    This is a most excellent document - thanks for all your work on it!\r\n\r\n    Regarding the Recommendation section, I note that the document doesn\u2019t include any mention of importance of the notification capabilities of authentication systems as a means for mitigation possible abuser use of technology. \r\n\r\n    As means of example, I\u2019d refer to the work of the National Network to End Domestic Violence (NNEDV) and Facebook in making clear possible mitigations to technology by abusers, and their publication \"A guide for Survivors of Abuse\u201d <https://nnedv.org/wp-content/uploads/2019/07/Library_TH_2018_Privacy_Safety_Facebook_Guide_Survivors_Abuse.pdf>, which calls out the usefulness of notifications in detecting misuse of technology by abusers - \r\n\r\n>     Login notifications\r\n>\r\n>     You can be notified, either by email or text message, if someone tries to access your account from a computer or device that you haven\u2019t used before.\r\n>\r\n>     Login approvals\r\n>\r\n>     If you are logging into your account from a different web browser or device, you must have a security code to access your account.\r\n>\r\n>     Recognized devices\r\n>\r\n>     You can manage the devices that are allowed to have access to your account and be notified if an unknown device tries to access your account. This is particularly helpful for a survivor who may have wanted to access their account from their partner\u2019s device, but now no longer wants that device to have access.\r\n>\r\n>     Active sessions\r\n>\r\n>     This is important to note because it shows sessions that are currently active or logged on. You may have active sessions if you\u2019ve accessed your account or are using an app and forgot to log off. This also will show if someone else might have accessed your account. In that case, you can choose to \u2018End Activity,\u2019 which will block that device from continuing to access your account.\r\n\r\n    This usefulness of such controls echoed in another recent paper \"A Domestic Violence Dystopia: Abuse via the Internet of Things and Remedies Under Current Law\u201d <https://californialawreview.org/print/a-domestic-violence-dystopia-abuse-via-the-internet-of-things-and-remedies-under-current-law/#clr-toc-heading-10>. which notes implications of technology design on those facing potential abuse \u2013 \"Safe design should also include automatic generation of weekly or monthly reports informing users about their data and account logins, a system notification that shows which registered user initiated the controls, and the standard of requiring that users opt into rather than out of data-sharing between members of a household. \u201c\r\n\r\n    I\u2019d encourage some further discussion on the list of the notification aspects of authentication systems and their potential use in mitigation of abuse via technology, and if found useful, inclusion of additional text in the authentication systems portion of the recommendations. ",
       "createdAt": "2023-04-20T12:22:13Z",
-      "updatedAt": "2023-05-26T15:11:06Z",
-      "closedAt": null,
+      "updatedAt": "2023-09-01T15:57:43Z",
+      "closedAt": "2023-09-01T15:57:43Z",
       "comments": [
         {
           "author": "claucece",
@@ -224,15 +224,15 @@
       "id": "I_kwDOHlma6c5j7_G4",
       "title": "Deepfakes",
       "url": "https://github.com/claucece/draft-celi-ipvc/issues/9",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "claucece",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Leonie notes:\r\n\r\n```\r\nLastly, Deepfakes may be something worth accenting in the text.\r\n```",
       "createdAt": "2023-04-20T12:56:02Z",
-      "updatedAt": "2023-07-07T13:22:07Z",
-      "closedAt": null,
+      "updatedAt": "2023-09-01T14:59:57Z",
+      "closedAt": "2023-09-01T14:59:57Z",
       "comments": [
         {
           "author": "claucece",
@@ -247,6 +247,13 @@
           "body": "I reviewed Witness reports and there appears only one case of a woman politcian in India who was victim of a deepfake. They mention there are many cases of deepfakes being used to harass mainly women, and many experts consider this scenario will increase at the same time GAN tools are popularized. I think it's maybe not necesary to go in depth on this explanation, and just added a shot mention at the intro section of whoy we are not including CSAM and deepfakes. Maybe it's necesary to better write it.  ",
           "createdAt": "2023-07-07T13:22:06Z",
           "updatedAt": "2023-07-07T13:22:06Z"
+        },
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "Agreed! I review the text and looks good!",
+          "createdAt": "2023-09-01T14:59:57Z",
+          "updatedAt": "2023-09-01T14:59:57Z"
         }
       ]
     },
@@ -255,16 +262,24 @@
       "id": "I_kwDOHlma6c5qFV0r",
       "title": "OGBV citation",
       "url": "https://github.com/claucece/draft-celi-ipvc/issues/10",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mallory",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "Quotable text from https://www.apc.org/sites/default/files/gender-cybersecurity-policy-litreview.pdf:\r\n\r\n\"Women and girls face specific cyber threats in the digital age that are considered forms of gender-based violence as they occur because of their gender, or because they disproportionately affect one gender. While this violence is mediated by digital technology, it is part of the same offline structural violence; but its technological dimension adds elements of search, persistence, replicability and scalability that facilitate the aggressors\u2019 access to their targets and can exacerbate the harm.\"",
       "createdAt": "2023-06-28T21:13:49Z",
-      "updatedAt": "2023-08-22T14:41:42Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2023-09-01T18:45:13Z",
+      "closedAt": "2023-09-01T18:45:12Z",
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "added now ;)",
+          "createdAt": "2023-09-01T18:45:12Z",
+          "updatedAt": "2023-09-01T18:45:12Z"
+        }
+      ]
     },
     {
       "number": 11,
@@ -287,16 +302,24 @@
       "id": "I_kwDOHlma6c5u9lzm",
       "title": "Tactics citations",
       "url": "https://github.com/claucece/draft-celi-ipvc/issues/12",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "mallory",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "To cite or to cross check against our list:\r\n\r\nEmily Tseng, Rosanna Bellini, Nora McDonald, Matan Danos, Rachel Greenstadt, Damon McCoy, Nicola Dell, & Thomas Ristenpart (2020). The Tools and Tactics Used in Intimate Partner Surveillance: An Analysis of Online Infidelity Forums. CoRR, abs/2005.14341.\r\n\r\nR. Chatterjee et al., \"The Spyware Used in Intimate Partner Violence,\" 2018 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA, 2018, pp. 441-458, doi: 10.1109/SP.2018.00061.",
       "createdAt": "2023-08-22T14:51:55Z",
-      "updatedAt": "2023-08-22T14:51:55Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2023-09-01T18:39:02Z",
+      "closedAt": "2023-09-01T18:39:01Z",
+      "comments": [
+        {
+          "author": "claucece",
+          "authorAssociation": "OWNER",
+          "body": "Added now!",
+          "createdAt": "2023-09-01T18:39:01Z",
+          "updatedAt": "2023-09-01T18:39:01Z"
+        }
+      ]
     }
   ],
   "pulls": [
