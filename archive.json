@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-09-03T00:19:01.872953+00:00",
+  "timestamp": "2023-10-03T00:18:29.425308+00:00",
   "repo": "claucece/draft-celi-ipvc",
   "labels": [
     {
@@ -320,6 +320,22 @@
           "updatedAt": "2023-09-01T18:39:01Z"
         }
       ]
+    },
+    {
+      "number": 13,
+      "id": "I_kwDOHlma6c5yj9zI",
+      "title": "Better linkage between problems and solutions",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/13",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "The mitigations listed in Section 5 don't link to the attacks that are mentioned.  This makes it difficult to understand what sort of risks remain if an engineer followed all the advice given.  That is, given a particular attack, what is the particular mitigation?  This is the strategy recommended by RFC 3552, and I think we are wise to follow it here, if necessary with an explanation or references as to why various mitigations are important in that case.  I would presume that a number of the mitigations overlap.\r\n\r\nBTW, I'm not suggesting that you delete Section 5.  It can serve as a reasonable summary, and you might even create a table to indicate which mitigations address which attacks.  But neither a table nor a summary are enough to demonstrate appropriate remediation.  Some support is required, if for no other reason, than for us to recognize when there is a potential workaround by the attacker to the remediation",
+      "createdAt": "2023-10-02T14:25:23Z",
+      "updatedAt": "2023-10-02T14:25:23Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
