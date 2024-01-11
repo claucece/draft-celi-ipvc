@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-09T00:20:15.537430+00:00",
+  "timestamp": "2024-01-11T00:20:53.503384+00:00",
   "repo": "claucece/draft-celi-ipvc",
   "labels": [
     {
@@ -334,6 +334,22 @@
       "body": "The mitigations listed in Section 5 don't link to the attacks that are mentioned.  This makes it difficult to understand what sort of risks remain if an engineer followed all the advice given.  That is, given a particular attack, what is the particular mitigation?  This is the strategy recommended by RFC 3552, and I think we are wise to follow it here, if necessary with an explanation or references as to why various mitigations are important in that case.  I would presume that a number of the mitigations overlap.\r\n\r\nBTW, I'm not suggesting that you delete Section 5.  It can serve as a reasonable summary, and you might even create a table to indicate which mitigations address which attacks.  But neither a table nor a summary are enough to demonstrate appropriate remediation.  Some support is required, if for no other reason, than for us to recognize when there is a potential workaround by the attacker to the remediation",
       "createdAt": "2023-10-02T14:25:23Z",
       "updatedAt": "2023-10-02T14:25:23Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 14,
+      "id": "I_kwDOHlma6c57pa5q",
+      "title": "Silencing",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/14",
+      "state": "OPEN",
+      "author": "mallory",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Image-based abuse is about silencing. Telling someone to mitigate TA GBV by going offline is not the answer. https://chayn.notion.site/Orbits-a-global-field-guide-to-advance-intersectional-survivor-centred-and-trauma-informed-interv-8d8dc6a1436543b8b25af63ddafaa409",
+      "createdAt": "2024-01-10T14:08:06Z",
+      "updatedAt": "2024-01-10T14:08:06Z",
       "closedAt": null,
       "comments": []
     }
