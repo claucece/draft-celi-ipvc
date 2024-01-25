@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-23T00:20:09.348924+00:00",
+  "timestamp": "2024-01-25T00:20:17.061157+00:00",
   "repo": "claucece/draft-celi-ipvc",
   "labels": [
     {
@@ -350,6 +350,22 @@
       "body": "Image-based abuse is about silencing. Telling someone to mitigate TA GBV by going offline is not the answer. https://chayn.notion.site/Orbits-a-global-field-guide-to-advance-intersectional-survivor-centred-and-trauma-informed-interv-8d8dc6a1436543b8b25af63ddafaa409",
       "createdAt": "2024-01-10T14:08:06Z",
       "updatedAt": "2024-01-10T14:08:06Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 15,
+      "id": "I_kwDOHlma6c587Vqo",
+      "title": "Sweep ETSI Cyber report for definitions",
+      "url": "https://github.com/claucece/draft-celi-ipvc/issues/15",
+      "state": "OPEN",
+      "author": "mallory",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Just to make sure we didn't forget anything in our threat modeling, scan through the ETSI Cyber report: https://www.etsi.org/deliver/etsi_tr/103300_103399/103304/01.01.01_60/tr_103304v010101p.pdf",
+      "createdAt": "2024-01-23T12:01:43Z",
+      "updatedAt": "2024-01-23T12:01:44Z",
       "closedAt": null,
       "comments": []
     }
