@@ -174,11 +174,11 @@ The attacker we present in this document is one that either has forceful control
 accounts, devices, and/or authentication information for accessing systems, or uses
 public information to exercise control.
 This kind of attacker can be technologically savvy or not. We define this
-attacker as one of the strongest ones as it can have unlimited access to
+attacker as one of the strongest ones as they can have unlimited access to
 systems and devices, whithout investing a lot of financial or computational resources.
 
 The attacker has some kind of physical access to the victim (or has had it in the past),
-and often shares a common social network with them. In some cases, it can be
+and often shares a common social network with them. In some cases, they can be
 the legal owner of the devices/accounts a victim uses.
 
 ## Tech-based IPV tactics
@@ -213,7 +213,7 @@ Here we informally list their main groups:
   active monitoring of any online account that the victim has or of any action that the
   victim does in the digital world. This includes a variety of behaviors that
   feel unwelcomed and intrusive, and can involve threats.
-  The monitoring is "active" in that is a permanent action that the victim can be
+  The monitoring is "active" in that is an ongoing action that the victim can be
   aware of or not, and that the abuser might want to make them aware or not. It can
   include:
   * Monitoring e-mail, chat-based or social media communications, or browsing information
@@ -366,7 +366,7 @@ We list here some recommendations to protocol designers to mitigate technology-e
 * Storage and sharing of media: media should be stored/posted in such a way that:
   * It can be taken down at the request of a victim if it consists of
     private media posted without consent.
-  * Provide good and private mechanisms for reporting the posting of
+  * provide private and accessible mechanisms for reporting the posting of
     non-consented media.
   * Provide a way to destroy media once a device is in the hands of an attacker.
 * Social media: social media can be a way for attackers to enhance monitoring.
